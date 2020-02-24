@@ -133,6 +133,24 @@ jQuery(document).ready(function( $ ) {
     responsive: { 0: { items: 1 }, 768: { items: 3 }, 992: { items: 4 }, 1200: {items: 5}
     }
   });
+  // Init Owl Carousel
+  $('.owl-carousel').owlCarousel({
+    items: 4,
+    autoplay: true,
+    loop: true,
+    margin: 30,
+    dots: true,
+    responsiveClass: true,
+    responsive: {
+
+      320: { items: 1},
+      480: { items: 2},
+      600: { items: 2},
+      767: { items: 3},
+      768: { items: 3},
+      992: { items: 4}
+    }
+  });
 
   // Buy tickets select the ticket type on click
   $('#buy-ticket-modal').on('show.bs.modal', function (event) {
@@ -159,10 +177,35 @@ jQuery(document).ready(function( $ ) {
       });
     });
 
+    //initialise client carousel
+    $(".clients-carousel").owlCarousel({
+      autoplay: true,
+      dots: true,
+      loop: true,
+      responsive: {
+        0: {
+          items: 2
+        },
+        768: {
+          items: 4
+        },
+        900: {
+          items: 6
+        }
+      }
+    });
+  
+    
     // Initiate venobox (lightbox feature used in portofilo)
     $(document).ready(function() {
       $('.venobox').venobox();
     });
+  });
+
+  // Initi AOS
+  AOS.init({
+    duration: 800,
+    easing: "ease-in-out"
   });
 
 });

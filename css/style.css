@@ -717,7 +717,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Speakers Section
 --------------------------------------------------------------*/
 
-#speakers {
+/* #speakers {
   padding: 60px 0 30px 0;
 }
 
@@ -808,7 +808,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Schedule Section
@@ -978,7 +978,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Hotels Section
 --------------------------------------------------------------*/
 
-#hotels {
+/* #hotels {
   padding: 60px 0;
 }
 
@@ -1032,7 +1032,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #060c22;
   font-style: italic;
   font-size: 15px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Gallery Section
@@ -1084,7 +1084,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # supporters Section
 --------------------------------------------------------------*/
 
-#supporters {
+/* #supporters {
   padding: 60px 0;
 }
 
@@ -1119,7 +1119,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #supporters img {
   transition: all 0.4s ease-in-out;
-}
+} */
 
 /*--------------------------------------------------------------
 # Clients
@@ -1240,7 +1240,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # F.A.Q Section
 --------------------------------------------------------------*/
 
-#faq {
+/* #faq {
   padding: 60px 0;
 }
 
@@ -1285,13 +1285,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #faq #faq-list a.collapsed i::before {
   content: "\f055" !important;
-}
+} */
 
 /*--------------------------------------------------------------
 # Subscribe Section
 --------------------------------------------------------------*/
 
-#subscribe {
+/* #subscribe {
   padding: 60px;
   background: url(../img/subscribe-bg.jpg) center center no-repeat;
   background-size: cover;
@@ -1339,13 +1339,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #subscribe button:hover {
   background: #e0072f;
-}
+} */
 
 /*--------------------------------------------------------------
 # Buy Tickets Section
 --------------------------------------------------------------*/
 
-#buy-tickets {
+/* #buy-tickets {
   padding: 60px 0;
 }
 
@@ -1415,13 +1415,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #buy-tickets #buy-ticket-modal .btn:hover {
   background-color: #e0072f;
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
 
-#contact {
+/* #contact {
   padding: 60px 0;
 }
 
@@ -1520,7 +1520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #e0072f;
 }
-
+ */
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1928,3 +1928,129 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 1;
   bottom: 0;
 }
+
+/* Screenshots Section
+--------------------------------*/
+.owl-dot.active > span {
+  height: 10px !important;
+  width: 10px !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  height: 10px !important;
+  width: 10px !important;
+}
+
+.owl-item img {
+  cursor: pointer;
+}
+
+.owl-stage-outer {
+  margin-bottom: 30px;
+}
+
+.owl-theme .owl-nav {
+  display: none;
+  margin-top: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #000;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #ddd;
+}
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.screenshots .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #343a40;
+  position: relative;
+  overflow: hidden;
+}
+
+.screenshots .member .member-info {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+
+.screenshots .member .member-info-content {
+  position: absolute;
+  left: 50px;
+  right: 0;
+  bottom: 0;
+  transition: bottom 0.4s;
+}
+
+.screenshots .member .member-info-content h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.screenshots .member .member-info-content span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+.screenshots .member .social {
+  position: absolute;
+  left: -50px;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  transition: left ease-in-out 0.3s;
+  background: rgba(78, 64, 57, 0.6);
+  text-align: center;
+}
+
+.screenshots .member .social a {
+  transition: color 0.3s;
+  display: block;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.screenshots .member .social a:hover {
+  color: #eb5d1e;
+}
+
+.screenshots .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+.screenshots .member:hover .member-info {
+  background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.screenshots .member:hover .member-info-content {
+  bottom: 30px;
+  transition: bottom 0.4s;
+}
+
+.screenshots .member:hover .social {
+  left: 0;
+  transition: left ease-in-out 0.3s;
+}
+
+
