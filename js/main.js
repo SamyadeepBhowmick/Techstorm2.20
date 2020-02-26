@@ -173,7 +173,7 @@ jQuery(document).ready(function( $ ) {
       $(this).addClass('filter-active');
 
       portfolioIsotope.isotope({
-        filter: $(this).data('filter')
+        filter: $(this).data('filter')  
       });
     });
 
