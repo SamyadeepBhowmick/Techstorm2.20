@@ -5,30 +5,37 @@
   License: https://bootstrapmade.com/license/
 */
 :root{
-  --bluish-black : rgb(12,19,43);
-  --grey: rgb(220,220,222);
-  --red: rgb(237, 71, 59);
+  --faded-blue : #0D324C;
+  --faded-white: rgb(239, 249, 255);
+  --lightblue: #3AB9F0;
+  --deepblue:#092863;
+  --faded-grey:#c3bebb;
 }
 
 /*--------------------------------------------------------------
 # General
+#0D324C faded-blue
+#E8F2F7 faded-white
+#3AB9F0 lightblue
+#092863 deepblue
+
 --------------------------------------------------------------*/
 
 body {
-  background: var(--grey);
+  background: #fff;
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: rgb(237, 71, 59);
+  color: #fff;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: rgb(237, 71, 59);
+  color: var(--lightblue);
   outline: none;
   text-decoration: none;
 }
@@ -77,7 +84,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #f82249;
+  background: var(--lightblue);
   color: #fff;
   width: 40px;
   height: 40px;
@@ -94,13 +101,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #e0072f;
+  background: var(--deepblue);
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #e0072f;
+  background: var(--deepblue);
   color: #fff;
 }
 
@@ -119,7 +126,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #f82249;
+  background: var(--deepblue);
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -138,11 +145,11 @@ h6 {
   margin: 0;
   font-size: 18px;
   font-weight: 500;
-  color: #9195a2;
+  color: var(--faded-blue);
 }
 
 .section-with-bg {
-  background-color: #f6f7fd;
+  background-color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -166,15 +173,15 @@ h6 {
 /*sticky header*/
 #header.sticky{
   padding: 25px 0;
-  background: rgb(220,220,222);
+  background: var(--faded-white);
 }
 
 #header.sticky #logo h1{
-  color: #000;
+  color: var(--deepblue);
 }
 
 #header.sticky #nav-menu-container ul li a{
-  color: #000;
+  color: var(--deepblue);
 }
 
 /* #header.header-scrolled,
@@ -310,7 +317,7 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f82249;
+  background-color: var(--lightblue);
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -324,10 +331,10 @@ h6 {
 
 .nav-menu li.buy-tickets a {
   color: #fff;
-  background: #f82249;
+  background: var(--lightblue);
   padding: 7px 22px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid var(--lightblue);
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -368,7 +375,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  background: #f82249;
+  background: var(--lightblue);
   color: #fff;
 }
 
@@ -435,7 +442,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-  color: #f82249;
+  color: var(--lightblue);
 }
 
 #mobile-nav ul li li {
@@ -452,11 +459,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #f82249;
+  color: var(--lightblue);
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #f82249;
+  color: var(--lightblue);
 }
 
 #mobile-body-overly {
@@ -491,7 +498,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.png) top center;
+  background: url(../img/site_wall_no_bg.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -539,7 +546,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #f82249;
+  color: var(--lightblue);
 }
 
 #intro p {
@@ -551,7 +558,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(var(--lightblue) 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -598,7 +605,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .play-btn:hover::after {
-  border-left: 15px solid #f82249;
+  border-left: 15px solid var(--lightblue);
   -webkit-transform: scale(20);
   transform: scale(20);
 }
@@ -636,11 +643,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f82249;
+  border: 2px solid var(--lightblue);
 }
 
 #intro .about-btn:hover {
-  background: #f82249;
+  background: var(--lightblue);
   color: #fff;
 }
 
@@ -838,13 +845,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   border-radius: 50px;
   font-weight: 600;
-  background-color: #0e1b4d;
+  background-color: var(--deepblue);
   color: #fff;
   padding: 10px 100px;
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f82249;
+  background-color: var(--lightblue);
   color: #fff;
 }
 
@@ -916,6 +923,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #venue {
+  background-color: var(--faded-white);
   padding: 60px 0;
 }
 
@@ -1063,11 +1071,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ddd;
+  background-color: var(--faded-grey);
 }
 
 #gallery .owl-dot.active {
-  background-color: #f82249;
+  background-color: var(--deepblue);
 }
 
 #gallery .gallery-carousel .owl-stage-outer {
@@ -1075,7 +1083,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .gallery-carousel .center {
-  border: 6px solid #f82249;
+  border: 6px solid var(--deepblue);
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
@@ -1155,11 +1163,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #fbe2d8 !important;
+  background-color: var(--faded-grey) !important;
 }
 
 .clients .owl-dot.active {
-  background-color: #eb5d1e !important;
+  background-color: var(--deepblue) !important;
 }
 
 /* Testimonials Section
@@ -1170,7 +1178,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .testimonials-content::before {
-  color: #71c55d;
+  color: var(--deepblue);
   content: "";
   display: inline-block;
   font: 70px/1 FontAwesome;
@@ -1204,7 +1212,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 13px;
   border-radius: 50%;
   margin-right: 13px;
-  background: #fff none repeat scroll 0 0;
+  background: var(--faded-grey) none repeat scroll 0 0;
   border-radius: 50%;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -1214,7 +1222,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .btm-btm .active {
-  background: #71c55d;
+  background: var(--deepblue);
 }
 
 .carousel-indicators {
@@ -1583,7 +1591,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f82249;
+  background: var(--lightblue);
   color: #fff;
 }
 
@@ -1594,7 +1602,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #f82249;
+  border-bottom: 2px solid var(--lightblue);
 }
 
 #footer .footer-top .footer-links {
@@ -1609,7 +1617,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #f82249;
+  color: var(--lightblue);
   font-size: 18px;
 }
 
@@ -1627,7 +1635,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #f82249;
+  color: var(--lightblue);
 }
 
 #footer .footer-top .footer-contact {
@@ -1649,7 +1657,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #f82249;
+  background: var(--lightblue);
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1660,7 +1668,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #e0072f;
+  background: var(--lightblue);
 }
 
 #footer .copyright {
@@ -1806,6 +1814,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
+  background-color: var(--faded-white);
   margin-bottom: 30px;
 }
 
@@ -1830,7 +1839,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #eb5d1e;
+  color: var(--lightblue);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1847,7 +1856,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(122, 105, 96, 0.6);
+  background: rgba(96, 122, 122, 0.6);
   position: absolute;
   left: 100%;
   right: 0;
@@ -1875,7 +1884,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #eb5d1e;
+  color: var(--lightblue);
   margin: 0 4px;
   font-size: 18px;
   line-height: 1;
@@ -1895,7 +1904,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #eb5d1e;
+  background: var(--lightblue);
   color: #fff;
 }
 
@@ -1972,10 +1981,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team {
+/* .team {
   background: #fff;
   padding: 60px 0;
-}
+}*/
 
 .screenshots .member {
   text-align: center;
@@ -2058,6 +2067,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .screenshots .member:hover .social {
   left: 0;
   transition: left ease-in-out 0.3s;
-}
+} */
 
 

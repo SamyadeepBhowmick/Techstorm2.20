@@ -118,7 +118,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Gallery</h2>
-          <p>Check our gallery from the recent events</p>
+          <p>Check our gallery from the past events</p>
         </div>
       </div>
 
@@ -245,7 +245,7 @@
       Portfolio Section(Events)
     ============================-->
 
-    <section id="portfolio" class="portfolio wow fadeInUp" style="padding-top: 3%;">
+    <section id="portfolio" class="portfolio wow fadeInUp" style="background-color: rgb(239, 249, 255);padding-top: 3%;">
       <div class="container">
 
         <div class="section-header" data-aos="fade-up">
@@ -253,7 +253,7 @@
           <p>Check out our beautifull portfolio</p>
         </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <!-- <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
@@ -262,7 +262,7 @@
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
-        </div>
+        </div> -->
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -404,7 +404,7 @@
       <div class="container wow fadeInUp">
         <div class="section-header">
           <h2>Event Schedule</h2>
-          <p>Here is our event schedule</p>
+          <p>Detailed event schedule will be updated shortly</p>
         </div>
 
         <ul class="nav nav-tabs" role="tablist">
@@ -904,7 +904,7 @@
     <!--==========================
     Screenshots Section(Team)
     ============================-->
-    <section id="screenshots" class="padd-section text-center wow fadeInUp" style="background-color: rgb(67, 87, 161);padding-top: 3%;padding-bottom: 3%;">
+    <section id="screenshots" class="padd-section text-center wow fadeInUp" style="background-color: rgb(239, 249, 255);padding-top: 3%;padding-bottom: 3%;">
 
       <div class="container">
         <div class="section-header text-center">
@@ -984,8 +984,8 @@
             <img src="img/gallery/1.jpg" class="img-fluid" alt="">
             <div class="member-info">
               <div class="member-info-content">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4><strong>Samyadeep</br>Bhowmick</strong></h4>
+                <span>Web Developer</span>
               </div>
             </div>
           </div>
@@ -994,8 +994,8 @@
             <img src="img/gallery/2.jpg" class="img-fluid" alt="">
             <div class="member-info">
               <div class="member-info-content">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4><strong>Srinjan</br>Ghosh</strong></h4>
+                <span>Web Developer</span>
               </div>
             </div>
           </div>
@@ -1004,8 +1004,8 @@
             <img src="img/gallery/3.jpg" class="img-fluid" alt="">
             <div class="member-info">
               <div class="member-info-content">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4><strong>Tathagata</br>Jana</strong></h4>
+                <span>Web Developer</span>
               </div>
             </div>
           </div>
@@ -1413,7 +1413,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#intro">Home</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#about">About</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#gallery">Gallery</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#portfolio">Events</a></li>
@@ -1441,15 +1441,17 @@
               New York, NY 535022<br>
               United States <br>
               <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Fax:</strong> +1 5589 55488 55<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-whatsapp"></i></a>
               <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> -->
             </div>
 
           </div>
@@ -1472,7 +1474,7 @@
         Created by <a href="https://bootstrapmade.com/">Uniquest Systems</a>
       </div>
       <div class="credits">
-        Created by <a href="#">Uniquest Systems</a>
+        Created by <a href="#"><b>Uniquest Systems</b></a>
       </div>
     </div>
   </footer><!-- #footer -->
@@ -1502,6 +1504,10 @@
 
 <script>
   window.addEventListener("scroll",function(){
+    document.querySelector('#mobile-nav-toggle i').style.color='#092863'
+    if(window.scrollY===0){
+      document.querySelector('#mobile-nav-toggle i').style.color='#fff'
+    }
     let header=document.querySelector("#header")
     header.classList.toggle("sticky",window.scrollY>0)
   })
