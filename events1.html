@@ -9,75 +9,125 @@
 		<title>Roverse</title>
 		<meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="img/favicon.png" rel="icon">
+		<link href="img/favicon.png" rel="icon">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="css/modal.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="css/events.css" />
+		
 	</head>
 	<body>
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<span class="avatar"><img src="img/gallery/roverse.jpg" alt="" width="200px" height="160px" /></span>
-						<h1>Robotics<br/>
-						and released for free under the Creative Commons License.</h1>
-					</header>
+			<!-- Header -->
+			<header id="header">
+				<span class="avatar"><img src="img/gallery/roverse.jpg" alt="" width="200px" height="160px" /></span>
+				<h1>Robotics<br/>
+				and released for free under the Creative Commons License.</h1>
+			</header>
 
-				<!-- Main -->
-					<section id="main">
+			<!-- Main -->
+			<section id="main">
 
-						<!-- Thumbnails -->
-							<section class="thumbnails">
-								<div>
-									<a id="event1" class="ROPICKER" style="border-radius: 10%;" onclick="register(this.classList[0])">
-										<img src="img/gallery/creative.jpg" alt="" height="300px" />
-										<h3>Ro-Picker</h3>
-									</a>
-									<a id="event2" class="ROCARROM" style="border-radius: 10%;" onclick="register(this.classList[0])">
-										<img src="images/thumbs/02.jpg" alt="" />
-										<h3>Ro-Carrom</h3>
-									</a>
-								</div>
-								<div>
-									<a id="event3" class="RONAVIGATOR" style="border-radius: 10%;" onclick="register(this.classList[0])">
-										<img src="images/thumbs/03.jpg" alt="" />
-										<h3>Ro-Navigator</h3>
-									</a>
-									<a id="event4" class="ROTERRANCE" style="border-radius: 10%;" onclick="register(this.classList[0])">
-										<img src="images/thumbs/04.jpg" alt="" />
-										<h3>Ro-Terrance</h3>
-									</a>
-									<a id="event5" class="ROSOCCER" style="border-radius: 10%;" onclick="register(this.classList[0])">
-										<img src="images/thumbs/05.jpg" alt="" />
-										<h3>Ro-Soccer</h3>
-									</a>
-								</div>
-								<div>
-									<a id="event6" class="ROCOMBAT" style="border-radius: 10%;" onclick="register(this.classList[0])">
-										<img src="images/thumbs/06.jpg" alt="" />
-										<h3>Ro-Combat</h3>
-									</a>
-									<a id="event7" class="ROWINGS" style="border-radius: 10%;" onclick="register(this.classList[0])">
-										<img src="images/thumbs/07.jpg" alt="" />
-										<h3>Ro-Wings</h3>
-									</a>
-								</div>
-							</section>
+				<!-- Thumbnails -->
+				<section class="thumbnails">
+					<div>
+						<a id="event1" class="ROPICKER" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="img/gallery/creative.jpg" alt="" height="300px" />
+							<h3>Ro-Picker</h3>
+						</a>
+						<a id="event2" class="ROCARROM" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="images/thumbs/02.jpg" alt="" />
+							<h3>Ro-Carrom</h3>
+						</a>
+					</div>
+					<div>
+						<a id="event3" class="RONAVIGATOR" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="images/thumbs/03.jpg" alt="" />
+							<h3>Ro-Navigator</h3>
+						</a>
+						<a id="event4" class="ROTERRANCE" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="images/thumbs/04.jpg" alt="" />
+							<h3>Ro-Terrance</h3>
+						</a>
+						<a id="event5" class="ROSOCCER" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="images/thumbs/05.jpg" alt="" />
+							<h3>Ro-Soccer</h3>
+						</a>
+					</div>
+					<div>
+						<a id="event6" class="ROCOMBAT" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="images/thumbs/06.jpg" alt="" />
+							<h3>Ro-Combat</h3>
+						</a>
+						<a id="event7" class="ROWINGS" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="images/thumbs/07.jpg" alt="" />
+							<h3>Ro-Wings</h3>
+						</a>
+					</div>
+				</section>
 
-					</section>
+			</section>
+		</div>
+
+		<div id="modal" class="modal">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal_name">
+						<h2 style="float: left;">RoPicker</h2>
+					</div>
+					<div class="close_btn">
+						<span class="close-button" style="float: right;">&times;</span>
+					</div>
+					<div class="w3-bar">
+						<button class="w3-bar-item w3-button w3-red tablink" onclick="openLink(event, 'Zoom1')">Description</button>
+						<button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom2')">Rules</button>
+						<button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom3')">Result</button>
+						<button class="w3-bar-item w3-button register tablink" onclick="window.open('register.html','_blank')">Register!</button>
+	
+					</div>
+					<script>
+						function openLink(evt, animName) {
+							var i, x, tablinks;
+							x = document.getElementsByClassName("des");
+							for (i = 0; i < x.length; i++) {
+							x[i].style.display = "none";    
+							}
+							tablinks = document.getElementsByClassName("tablink");
+							for (i = 0; i < x.length; i++) {
+							tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+							}
+							document.getElementById(animName).style.display = "block";
+							evt.currentTarget.className += " w3-red";
+						}
+						</script>
+				</div>
+				<div class="modal-body">
+					<div id="Zoom1" class="w3-container des w3-animate-zoom" style="display:block">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur cum sequi dolores illum sint corporis praesentium unde quas cumque enim itaque, excepturi optio esse possimus eius, ullam maiores a. Maiores at id natus ad numquam minima nihil, corrupti similique nemo quidem. Odit reiciendis fuga neque accusamus adipisci quia deserunt sapiente impedit, sit corporis suscipit, autem molestias ab doloremque explicabo dicta quae. Earum ipsam consequuntur officia blanditiis perferendis commodi quasi rem maiores sunt nemo harum praesentium eum, adipisci architecto, officiis ut, facilis iusto illum neque repudiandae itaque veritatis animi est totam! Est sed quibusdam totam repudiandae facilis velit perspiciatis unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione, unde dolor magni eum aperiam commodi mollitia quaerat quisquam labore molestiae laudantium cumque, cupiditate, vitae delectus. Ex, rerum ipsa eius accusamus quibusdam blanditiis error aperiam saepe beatae dolor vel optio, iste, eligendi voluptatum explicabo porro soluta odit. Recusandae tempora, saepe repellendus ullam modi numquam at velit. Officia, laboriosam odio et eum voluptates blanditiis praesentium quaerat quidem, itaque suscipit cupiditate dolorum dolores quo quos facilis, exercitationem nemo cum obcaecati alias. Ut, amet velit quis, officiis fugiat impedit voluptatum laudantium iste quas ea dolorem? Recusandae tenetur corrupti quisquam odit inventore adipisci voluptate!</p>
+					</div>
+					<div id="Zoom2" class="w3-container des w3-animate-zoom" style="display:none">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur cum sequi dolores illum sint corporis praesentium unde quas cumque enim itaque, excepturi optio esse possimus eius, ullam maiores a. Maiores at id natus ad numquam minima nihil, corrupti similique nemo quidem. Odit reiciendis fuga neque accusamus adipisci quia deserunt sapiente impedit, sit corporis suscipit, autem molestias ab doloremque explicabo dicta quae. Earum ipsam consequuntur officia blanditiis perferendis commodi quasi rem maiores sunt nemo harum praesentium eum, adipisci architecto, officiis ut, facilis iusto illum neque repudiandae itaque veritatis animi est totam! Est sed quibusdam totam repudiandae facilis velit perspiciatis unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione, unde dolor magni eum aperiam commodi mollitia quaerat quisquam labore molestiae laudantium cumque, cupiditate, vitae delectus. Ex, rerum ipsa eius accusamus quibusdam blanditiis error aperiam saepe beatae dolor vel optio, iste, eligendi voluptatum explicabo porro soluta odit. Recusandae tempora, saepe repellendus ullam modi numquam at velit. Officia, laboriosam odio et eum voluptates blanditiis praesentium quaerat quidem, itaque suscipit cupiditate dolorum dolores quo quos facilis, exercitationem nemo cum obcaecati alias. Ut, amet velit quis, officiis fugiat impedit voluptatum laudantium iste quas ea dolorem? Recusandae tenetur corrupti quisquam odit inventore adipisci voluptate!</p>
+					</div>
+					<div id="Zoom3" class="w3-container des w3-animate-zoom" style="display:none">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur cum sequi dolores illum sint corporis praesentium unde quas cumque enim itaque, excepturi optio esse possimus eius, ullam maiores a. Maiores at id natus ad numquam minima nihil, corrupti similique nemo quidem. Odit reiciendis fuga neque accusamus adipisci quia deserunt sapiente impedit, sit corporis suscipit, autem molestias ab doloremque explicabo dicta quae. Earum ipsam consequuntur officia blanditiis perferendis commodi quasi rem maiores sunt nemo harum praesentium eum, adipisci architecto, officiis ut, facilis iusto illum neque repudiandae itaque veritatis animi est totam! Est sed quibusdam totam repudiandae facilis velit perspiciatis unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione, unde dolor magni eum aperiam commodi mollitia quaerat quisquam labore molestiae laudantium cumque, cupiditate, vitae delectus. Ex, rerum ipsa eius accusamus quibusdam blanditiis error aperiam saepe beatae dolor vel optio, iste, eligendi voluptatum explicabo porro soluta odit. Recusandae tempora, saepe repellendus ullam modi numquam at velit. Officia, laboriosam odio et eum voluptates blanditiis praesentium quaerat quidem, itaque suscipit cupiditate dolorum dolores quo quos facilis, exercitationem nemo cum obcaecati alias. Ut, amet velit quis, officiis fugiat impedit voluptatum laudantium iste quas ea dolorem? Recusandae tenetur corrupti quisquam odit inventore adipisci voluptate!</p>
+					</div>
+				</div>
 			</div>
+		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script>
-				localStorage.setItem("event", "Roverse")
-			</script>
-			<script src="js/events.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			localStorage.setItem("event", "Roverse")
+		</script>
+		<script src="js/events.js"></script>
+		<!-- <script src="js/modal.js"></script> -->
 
 	</body>
 </html>

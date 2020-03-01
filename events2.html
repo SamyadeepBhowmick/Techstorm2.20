@@ -15,68 +15,114 @@
 	<body>
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<span class="avatar"><img src="img/gallery/games.jpg" alt="" width="200px" height="160px" /></span>
-						<h1>Games<br/>
-						and released for free under the Creative Commons License.</h1>
-					</header>
+			<!-- Header -->
+			<header id="header">
+				<span class="avatar"><img src="img/gallery/games.jpg" alt="" width="200px" height="160px" /></span>
+				<h1>Games<br/>
+				and released for free under the Creative Commons License.</h1>
+			</header>
 
-				<!-- Main -->
-					<section id="main">
+			<!-- Main -->
+			<section id="main">
 
-						<!-- Thumbnails -->
-							<section class="thumbnails" style="display: flex; justify-content: center; flex-wrap: wrap;">
-								<div>
-									<a id="event1" class="KHET" style="border-radius: 10%;" onclick="register(this.classList[0])">
-										<img src="img/gallery/creative.jpg" alt="" height="300px" />
-										<h3>Khet</h3>
-									</a>
-									<a id="event2" class="FIFA" style="border-radius: 10%;" onclick="register(this.classList[0])">
-										<img src="images/thumbs/02.jpg" alt="" />
-										<h3>Fifa</h3>
-									</a>
-								</div>
-								<!-- <div style="visibility: hidden;">
-									<a href="#" id="event3" class="COC">
-										<img src="images/thumbs/03.jpg" alt="" />
-										<h3>Lorem ipsum dolor sit amet</h3>
-									</a>
-									<a href="#" id="event4" class="NFS">
-										<img src="images/thumbs/04.jpg" alt="" />
-										<h3>Lorem ipsum dolor sit amet</h3>
-									</a>
-									<a href="images/fulls/05.jpg">
-										<img src="images/thumbs/05.jpg" alt="" />
-										<h3>Lorem ipsum dolor sit amet</h3>
-									</a>
-								</div> -->
-								<div>
-									<a id="event3" class="COC" style="border-radius: 10%;" onclick="register(this.classList[0])">
-										<img src="img/gallery/creative.jpg" alt="" height="300px"/>
-										<h3>Clash Of Clans</h3>
-									</a>
-									<a id="event4" class="NFS" style="border-radius: 10%;" onclick="register(this.classList[0])">
-										<img src="images/thumbs/02.jpg" alt="" />
-										<h3>Need For Speed</h3>
-									</a>
-								</div>
-							</section>
+				<!-- Thumbnails -->
+				<section class="thumbnails" style="display: flex; justify-content: center; flex-wrap: wrap;">
+					<div>
+						<a id="event1" class="KHET" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="img/gallery/creative.jpg" alt="" height="300px" />
+							<h3>Khet</h3>
+						</a>
+						<a id="event2" class="FIFA" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="images/thumbs/02.jpg" alt="" />
+							<h3>Fifa</h3>
+						</a>
+					</div>
+					<!-- <div style="visibility: hidden;">
+						<a href="#" id="event3" class="COC">
+							<img src="images/thumbs/03.jpg" alt="" />
+							<h3>Lorem ipsum dolor sit amet</h3>
+						</a>
+						<a href="#" id="event4" class="NFS">
+							<img src="images/thumbs/04.jpg" alt="" />
+							<h3>Lorem ipsum dolor sit amet</h3>
+						</a>
+						<a href="images/fulls/05.jpg">
+							<img src="images/thumbs/05.jpg" alt="" />
+							<h3>Lorem ipsum dolor sit amet</h3>
+						</a>
+					</div> -->
+					<div>
+						<a id="event3" class="COC" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="img/gallery/creative.jpg" alt="" height="300px"/>
+							<h3>Clash Of Clans</h3>
+						</a>
+						<a id="event4" class="NFS" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="images/thumbs/02.jpg" alt="" />
+							<h3>Need For Speed</h3>
+						</a>
+					</div>
+				</section>
 
-					</section>
+			</section>
+		</div>
+
+		<div id="modal" class="modal">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal_name">
+						<h2 style="float: left;">RoPicker</h2>
+					</div>
+					<div class="close_btn">
+						<span class="close-button" style="float: right;">&times;</span>
+					</div>
+					<div class="w3-bar">
+						<button class="w3-bar-item w3-button w3-red tablink" onclick="openLink(event, 'Zoom1')">DESCRIPTION</button>
+						<button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom2')">RULES</button>
+						<button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom3')">RESULT</button>
+						<button class="w3-bar-item w3-button register tablink" onclick="window.open('register.html','_blank')">REGISTER!</button>
+	
+					</div>
+					<script>
+						function openLink(evt, animName) {
+							var i, x, tablinks;
+							x = document.getElementsByClassName("des");
+							for (i = 0; i < x.length; i++) {
+							x[i].style.display = "none";    
+							}
+							tablinks = document.getElementsByClassName("tablink");
+							for (i = 0; i < x.length; i++) {
+							tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+							}
+							document.getElementById(animName).style.display = "block";
+							evt.currentTarget.className += " w3-red";
+						}
+						</script>
+				</div>
+				<div class="modal-body">
+					<div id="Zoom1" class="w3-container des w3-animate-zoom" style="display:block">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur cum sequi dolores illum sint corporis praesentium unde quas cumque enim itaque, excepturi optio esse possimus eius, ullam maiores a. Maiores at id natus ad numquam minima nihil, corrupti similique nemo quidem. Odit reiciendis fuga neque accusamus adipisci quia deserunt sapiente impedit, sit corporis suscipit, autem molestias ab doloremque explicabo dicta quae. Earum ipsam consequuntur officia blanditiis perferendis commodi quasi rem maiores sunt nemo harum praesentium eum, adipisci architecto, officiis ut, facilis iusto illum neque repudiandae itaque veritatis animi est totam! Est sed quibusdam totam repudiandae facilis velit perspiciatis unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione, unde dolor magni eum aperiam commodi mollitia quaerat quisquam labore molestiae laudantium cumque, cupiditate, vitae delectus. Ex, rerum ipsa eius accusamus quibusdam blanditiis error aperiam saepe beatae dolor vel optio, iste, eligendi voluptatum explicabo porro soluta odit. Recusandae tempora, saepe repellendus ullam modi numquam at velit. Officia, laboriosam odio et eum voluptates blanditiis praesentium quaerat quidem, itaque suscipit cupiditate dolorum dolores quo quos facilis, exercitationem nemo cum obcaecati alias. Ut, amet velit quis, officiis fugiat impedit voluptatum laudantium iste quas ea dolorem? Recusandae tenetur corrupti quisquam odit inventore adipisci voluptate!</p>
+					</div>
+					<div id="Zoom2" class="w3-container des w3-animate-zoom" style="display:none">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur cum sequi dolores illum sint corporis praesentium unde quas cumque enim itaque, excepturi optio esse possimus eius, ullam maiores a. Maiores at id natus ad numquam minima nihil, corrupti similique nemo quidem. Odit reiciendis fuga neque accusamus adipisci quia deserunt sapiente impedit, sit corporis suscipit, autem molestias ab doloremque explicabo dicta quae. Earum ipsam consequuntur officia blanditiis perferendis commodi quasi rem maiores sunt nemo harum praesentium eum, adipisci architecto, officiis ut, facilis iusto illum neque repudiandae itaque veritatis animi est totam! Est sed quibusdam totam repudiandae facilis velit perspiciatis unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione, unde dolor magni eum aperiam commodi mollitia quaerat quisquam labore molestiae laudantium cumque, cupiditate, vitae delectus. Ex, rerum ipsa eius accusamus quibusdam blanditiis error aperiam saepe beatae dolor vel optio, iste, eligendi voluptatum explicabo porro soluta odit. Recusandae tempora, saepe repellendus ullam modi numquam at velit. Officia, laboriosam odio et eum voluptates blanditiis praesentium quaerat quidem, itaque suscipit cupiditate dolorum dolores quo quos facilis, exercitationem nemo cum obcaecati alias. Ut, amet velit quis, officiis fugiat impedit voluptatum laudantium iste quas ea dolorem? Recusandae tenetur corrupti quisquam odit inventore adipisci voluptate!</p>
+					</div>
+					<div id="Zoom3" class="w3-container des w3-animate-zoom" style="display:none">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur cum sequi dolores illum sint corporis praesentium unde quas cumque enim itaque, excepturi optio esse possimus eius, ullam maiores a. Maiores at id natus ad numquam minima nihil, corrupti similique nemo quidem. Odit reiciendis fuga neque accusamus adipisci quia deserunt sapiente impedit, sit corporis suscipit, autem molestias ab doloremque explicabo dicta quae. Earum ipsam consequuntur officia blanditiis perferendis commodi quasi rem maiores sunt nemo harum praesentium eum, adipisci architecto, officiis ut, facilis iusto illum neque repudiandae itaque veritatis animi est totam! Est sed quibusdam totam repudiandae facilis velit perspiciatis unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione, unde dolor magni eum aperiam commodi mollitia quaerat quisquam labore molestiae laudantium cumque, cupiditate, vitae delectus. Ex, rerum ipsa eius accusamus quibusdam blanditiis error aperiam saepe beatae dolor vel optio, iste, eligendi voluptatum explicabo porro soluta odit. Recusandae tempora, saepe repellendus ullam modi numquam at velit. Officia, laboriosam odio et eum voluptates blanditiis praesentium quaerat quidem, itaque suscipit cupiditate dolorum dolores quo quos facilis, exercitationem nemo cum obcaecati alias. Ut, amet velit quis, officiis fugiat impedit voluptatum laudantium iste quas ea dolorem? Recusandae tenetur corrupti quisquam odit inventore adipisci voluptate!</p>
+					</div>
+				</div>
 			</div>
+		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script>
-				localStorage.setItem("event", "Games")
-			</script>
-			<script src="js/events.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			localStorage.setItem("event", "Games")
+		</script>
+		<script src="js/events.js"></script>
 
 	</body>
 </html>
