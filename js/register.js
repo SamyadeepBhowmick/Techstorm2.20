@@ -163,3 +163,9 @@ switch(subEvent){
 let eventname=localStorage.getItem("subEvent")
 let h2=document.querySelector(".title")
 h2.innerHTML+=eventname+" Registration Form"
+
+function myFunction() {
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+    }

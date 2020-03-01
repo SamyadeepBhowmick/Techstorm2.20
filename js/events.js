@@ -9,7 +9,7 @@
 data = [
     {
         "FIFA": {
-            "description": "lorem",
+            "description": "loremewjfejfj",
             "rules" : "ipsum",
             "result" : "qweryy"
         },
@@ -43,6 +43,7 @@ function openModal(){
         modal.classList.remove("out")
     }
     modal.classList.add("active")
+    
 }
 
 //for closing modal

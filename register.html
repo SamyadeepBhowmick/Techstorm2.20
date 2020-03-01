@@ -27,6 +27,22 @@
 </head>
 
 <body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal_name">
+                    <h2 style="float: left;"></h2>
+                </div>
+                <div class="close_btn" style="cursor: pointer;">
+                    <span class="close-button" style="float: right;">&times;</span>
+                </div>   
+            </div>
+            <div class="modal-body">
+                <p>Please take a screenshot of the qrcode.</p>
+                <div class="qr" style="pointer-events: none;"></div>
+            </div>
+        </div>
+    </div>
     <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
         <div class="wrapper wrapper--w790">
             <div class="card card-5">
@@ -174,6 +190,7 @@
     <script src="vendor/datepicker/daterangepicker.js"></script>
 
     <!-- Main JS-->
+    <script src="lib/qrcode/qrcode.js"></script>
     <script src="js/register.js"></script>
     <!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
@@ -194,6 +211,56 @@
         firebase.analytics();
     </script>
     <script src="js/registerSubmit.js"></script>
+
+    <div id="snackbar"></div>
+
+    <style>
+        #snackbar {
+          visibility: hidden;
+          min-width: 250px;
+          margin-left: -125px;
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          border-radius: 2px;
+          padding: 16px;
+          position: fixed;
+          z-index: 1;
+          left: 50%;
+          bottom: 30px;
+          font-size: 17px;
+        }
+        
+        #snackbar.show {
+          visibility: visible;
+          -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+          animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+        
+        @-webkit-keyframes fadein {
+          from {bottom: 0; opacity: 0;} 
+          to {bottom: 30px; opacity: 1;}
+        }
+        
+        @keyframes fadein {
+          from {bottom: 0; opacity: 0;}
+          to {bottom: 30px; opacity: 1;}
+        }
+        
+        @-webkit-keyframes fadeout {
+          from {bottom: 30px; opacity: 1;} 
+          to {bottom: 0; opacity: 0;}
+        }
+        
+        @keyframes fadeout {
+          from {bottom: 30px; opacity: 1;}
+          to {bottom: 0; opacity: 0;}
+        }
+        </style>
+
+    <script>
+        
+    </script>
 
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 
