@@ -23,7 +23,7 @@
 
 			<!-- Header -->
 			<header id="header">
-				<span class="avatar"><img src="img/gallery/roverse.jpg" alt="" width="200px" height="160px" /></span>
+				<span class="avatar" style="cursor: pointer;"><img src="img/gallery/roverse.jpg" alt="" width="200px" height="160px" /></span>
 				<h1>Robotics<br/>
 				and released for free under the Creative Commons License.</h1>
 			</header>
@@ -76,7 +76,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<div class="modal_name">
-						<h2 style="float: left;">RoPicker</h2>
+						<h2 style="float: left;"></h2>
 					</div>
 					<div class="close_btn">
 						<span class="close-button" style="float: right;">&times;</span>
@@ -105,13 +105,13 @@
 						</script>
 				</div>
 				<div class="modal-body">
-					<div id="Zoom1" class="w3-container des w3-animate-zoom" style="display:block">
+					<div id="Zoom1" class="w3-container des w3-animate-zoom desc" style="display:block">
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur cum sequi dolores illum sint corporis praesentium unde quas cumque enim itaque, excepturi optio esse possimus eius, ullam maiores a. Maiores at id natus ad numquam minima nihil, corrupti similique nemo quidem. Odit reiciendis fuga neque accusamus adipisci quia deserunt sapiente impedit, sit corporis suscipit, autem molestias ab doloremque explicabo dicta quae. Earum ipsam consequuntur officia blanditiis perferendis commodi quasi rem maiores sunt nemo harum praesentium eum, adipisci architecto, officiis ut, facilis iusto illum neque repudiandae itaque veritatis animi est totam! Est sed quibusdam totam repudiandae facilis velit perspiciatis unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione, unde dolor magni eum aperiam commodi mollitia quaerat quisquam labore molestiae laudantium cumque, cupiditate, vitae delectus. Ex, rerum ipsa eius accusamus quibusdam blanditiis error aperiam saepe beatae dolor vel optio, iste, eligendi voluptatum explicabo porro soluta odit. Recusandae tempora, saepe repellendus ullam modi numquam at velit. Officia, laboriosam odio et eum voluptates blanditiis praesentium quaerat quidem, itaque suscipit cupiditate dolorum dolores quo quos facilis, exercitationem nemo cum obcaecati alias. Ut, amet velit quis, officiis fugiat impedit voluptatum laudantium iste quas ea dolorem? Recusandae tenetur corrupti quisquam odit inventore adipisci voluptate!</p>
 					</div>
-					<div id="Zoom2" class="w3-container des w3-animate-zoom" style="display:none">
+					<div id="Zoom2" class="w3-container des w3-animate-zoom rules" style="display:none">
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur cum sequi dolores illum sint corporis praesentium unde quas cumque enim itaque, excepturi optio esse possimus eius, ullam maiores a. Maiores at id natus ad numquam minima nihil, corrupti similique nemo quidem. Odit reiciendis fuga neque accusamus adipisci quia deserunt sapiente impedit, sit corporis suscipit, autem molestias ab doloremque explicabo dicta quae. Earum ipsam consequuntur officia blanditiis perferendis commodi quasi rem maiores sunt nemo harum praesentium eum, adipisci architecto, officiis ut, facilis iusto illum neque repudiandae itaque veritatis animi est totam! Est sed quibusdam totam repudiandae facilis velit perspiciatis unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione, unde dolor magni eum aperiam commodi mollitia quaerat quisquam labore molestiae laudantium cumque, cupiditate, vitae delectus. Ex, rerum ipsa eius accusamus quibusdam blanditiis error aperiam saepe beatae dolor vel optio, iste, eligendi voluptatum explicabo porro soluta odit. Recusandae tempora, saepe repellendus ullam modi numquam at velit. Officia, laboriosam odio et eum voluptates blanditiis praesentium quaerat quidem, itaque suscipit cupiditate dolorum dolores quo quos facilis, exercitationem nemo cum obcaecati alias. Ut, amet velit quis, officiis fugiat impedit voluptatum laudantium iste quas ea dolorem? Recusandae tenetur corrupti quisquam odit inventore adipisci voluptate!</p>
 					</div>
-					<div id="Zoom3" class="w3-container des w3-animate-zoom" style="display:none">
+					<div id="Zoom3" class="w3-container des w3-animate-zoom result" style="display:none">
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur cum sequi dolores illum sint corporis praesentium unde quas cumque enim itaque, excepturi optio esse possimus eius, ullam maiores a. Maiores at id natus ad numquam minima nihil, corrupti similique nemo quidem. Odit reiciendis fuga neque accusamus adipisci quia deserunt sapiente impedit, sit corporis suscipit, autem molestias ab doloremque explicabo dicta quae. Earum ipsam consequuntur officia blanditiis perferendis commodi quasi rem maiores sunt nemo harum praesentium eum, adipisci architecto, officiis ut, facilis iusto illum neque repudiandae itaque veritatis animi est totam! Est sed quibusdam totam repudiandae facilis velit perspiciatis unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ratione, unde dolor magni eum aperiam commodi mollitia quaerat quisquam labore molestiae laudantium cumque, cupiditate, vitae delectus. Ex, rerum ipsa eius accusamus quibusdam blanditiis error aperiam saepe beatae dolor vel optio, iste, eligendi voluptatum explicabo porro soluta odit. Recusandae tempora, saepe repellendus ullam modi numquam at velit. Officia, laboriosam odio et eum voluptates blanditiis praesentium quaerat quidem, itaque suscipit cupiditate dolorum dolores quo quos facilis, exercitationem nemo cum obcaecati alias. Ut, amet velit quis, officiis fugiat impedit voluptatum laudantium iste quas ea dolorem? Recusandae tenetur corrupti quisquam odit inventore adipisci voluptate!</p>
 					</div>
 				</div>
@@ -126,6 +126,7 @@
 		<script>
 			localStorage.setItem("event", "Roverse")
 		</script>
+		<script src="data.js"></script>
 		<script src="js/events.js"></script>
 		<!-- <script src="js/modal.js"></script> -->
 
