@@ -162,45 +162,45 @@ jQuery(document).ready(function( $ ) {
 
 // custom code
   // Porfolio isotope and filter
-  $(window).on('load', function() {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item',
-      layoutMode: 'fitRows'
-    });
+  // $(window).on('load', function() {
+  //   var portfolioIsotope = $('.portfolio-container').isotope({
+  //     itemSelector: '.portfolio-item',
+  //     layoutMode: 'fitRows'
+  //   });
 
-    $('#portfolio-flters li').on('click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
-      $(this).addClass('filter-active');
+  //   $('#portfolio-flters li').on('click', function() {
+  //     $("#portfolio-flters li").removeClass('filter-active');
+  //     $(this).addClass('filter-active');
 
-      portfolioIsotope.isotope({
-        filter: $(this).data('filter')  
-      });
-    });
+  //     portfolioIsotope.isotope({
+  //       filter: $(this).data('filter')  
+  //     });
+  //   });
 
-    //initialise client carousel
-    $(".clients-carousel").owlCarousel({
-      autoplay: true,
-      dots: true,
-      loop: true,
-      responsive: {
-        0: {
-          items: 2
-        },
-        768: {
-          items: 4
-        },
-        900: {
-          items: 6
-        }
-      }
-    });
+  //   //initialise client carousel
+  //   $(".clients-carousel").owlCarousel({
+  //     autoplay: true,
+  //     dots: true,
+  //     loop: true,
+  //     responsive: {
+  //       0: {
+  //         items: 2
+  //       },
+  //       768: {
+  //         items: 4
+  //       },
+  //       900: {
+  //         items: 6
+  //       }
+  //     }
+  //   });
   
     
-    // Initiate venobox (lightbox feature used in portofilo)
-    $(document).ready(function() {
-      $('.venobox').venobox();
-    });
-  });
+  //   // Initiate venobox (lightbox feature used in portofilo)
+  //   $(document).ready(function() {
+  //     $('.venobox').venobox();
+  //   });
+  // });
 
   // Initi AOS
   AOS.init({

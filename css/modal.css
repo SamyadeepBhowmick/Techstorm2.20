@@ -25,7 +25,7 @@ h2{
 }
 
 .register{
-    background-color: #d10000;
+    background-color: #c70707;
     font-weight: bold !important;
     color: white;
 }
@@ -109,7 +109,8 @@ h2{
 
 .modal-header{
     background-color: #000000;
-    background-image: linear-gradient(147deg, #2795c8 0%, #1667c3 74%);
+    /* background-image: linear-gradient(147deg, #2795c8 0%, #1667c3 74%); */
+    background-image: url('../img/gradient.jpeg');
     /* background-image: url('../img/gallery/pan.jpg'); */
     /* display: flex; */
     justify-content: space-between;
@@ -128,6 +129,7 @@ h2{
 }
 
 .w3-bar .w3-bar-item {
+    border-radius: 20%;
     display: flex;
     padding: 8px 31px;
     float: left;

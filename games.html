@@ -6,16 +6,15 @@
 -->
 <html>
 	<head>
-		<title>Roverse</title>
+		<title>Games</title>
 		<meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link href="img/favicon.png" rel="icon">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="css/modal.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="css/events.css" />
-		
-	</head>
+	</head>	
 	<body>
 
 		<!-- Wrapper -->
@@ -23,48 +22,34 @@
 
 			<!-- Header -->
 			<header id="header">
-				<span class="avatar" style="cursor: pointer;"><img src="img/gallery/roverse.jpg" alt="" width="200px" height="160px" /></span>
-				<h1>Robotics<br/>
-				and released for free under the Creative Commons License.</h1>
+				<span class="avatar" style="cursor: pointer;"><img src="img/gallery/games.jpg" alt="" width="200px" height="160px" /></span>
+				<h1>Games<br/>
+					Games are all about taking risks</h1>
 			</header>
 
 			<!-- Main -->
 			<section id="main">
 
 				<!-- Thumbnails -->
-				<section class="thumbnails">
+				<section class="thumbnails" style="display: flex; justify-content: center; flex-wrap: wrap;">
 					<div>
-						<a id="event1" class="ROPICKER" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="img/gallery/ro_socc.jpg" alt="" height="300px" />
-							<h3>Ro-Picker</h3>
+						<a id="event1" class="KHET" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="img/gallery/khet.jpg" alt="" height="350px" />
+							<h3>Khet</h3>
 						</a>
-						<a id="event2" class="ROCARROM" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="images/thumbs/02.jpg" alt="" />
-							<h3>Ro-Carrom</h3>
+						<a id="event2" class="FIFA" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="img/gallery/fifa.jpg" alt="" />
+							<h3>Fifa</h3>
 						</a>
 					</div>
 					<div>
-						<a id="event3" class="RONAVIGATOR" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="images/thumbs/03.jpg" alt="" />
-							<h3>Ro-Navigator</h3>
+						<a id="event3" class="COC" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="img/gallery/coc.jpg" alt="" height="350px" />
+							<h3>Clash Of Clans</h3>
 						</a>
-						<a id="event4" class="ROTERRANCE" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="images/thumbs/04.jpg" alt="" />
-							<h3>Ro-Terrance</h3>
-						</a>
-						<a id="event5" class="ROSOCCER" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="images/thumbs/05.jpg" alt="" />
-							<h3>Ro-Soccer</h3>
-						</a>
-					</div>
-					<div>
-						<a id="event6" class="ROCOMBAT" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="images/thumbs/06.jpg" alt="" />
-							<h3>Ro-Combat</h3>
-						</a>
-						<a id="event7" class="ROWINGS" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="img/gallery/ro_socc.jpg" alt="" />
-							<h3>Ro-Wings</h3>
+						<a id="event4" class="NFS" style="border-radius: 10%;" onclick="register(this.classList[0])">
+							<img src="img/gallery/nfs.jpg" alt="" />
+							<h3>Need For Speed</h3>
 						</a>
 					</div>
 				</section>
@@ -76,16 +61,16 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<div class="modal_name">
-						<h2 style="float: left;"></h2>
+						<h2 style="float: left;">RoPicker</h2>
 					</div>
 					<div class="close_btn">
 						<span class="close-button" style="float: right;">&times;</span>
 					</div>
 					<div class="w3-bar">
-						<button class="w3-bar-item w3-button w3-red tablink" onclick="openLink(event, 'Zoom1')">Description</button>
-						<button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom2')">Rules</button>
-						<button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom3')">Result</button>
-						<button class="w3-bar-item w3-button register tablink" onclick="window.open('register.html','_blank')">Register!</button>
+						<button class="w3-bar-item w3-button w3-red tablink" onclick="openLink(event, 'Zoom1')">DESCRIPTION</button>
+						<button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom2')">RULES</button>
+						<button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Zoom3')">RESULT</button>
+						<button class="w3-bar-item w3-button register tablink" onclick="window.open('register.html','_blank')">REGISTER!</button>
 	
 					</div>
 					<script>
@@ -124,9 +109,8 @@
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/main.js"></script>
 		<script>
-			localStorage.setItem("event", "Roverse")
+			localStorage.setItem("event", "Games")
 		</script>
-		<script src="data.js"></script>
 		<script src="js/events.js"></script>
 
 	</body>

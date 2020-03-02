@@ -12,14 +12,6 @@
   --faded-grey:#c3bebb;
 }
 
-/*--------------------------------------------------------------
-# General
-#0D324C faded-blue
-#E8F2F7 faded-white
-#3AB9F0 lightblue
-#092863 deepblue
-
---------------------------------------------------------------*/
 
 body {
   background: #fff;
@@ -498,7 +490,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/site_wall_no_bg.jpg) top center;
+  background: url(../img/intro.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -684,7 +676,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("../img/about.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -722,103 +714,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   color: #fff;
 }
-
-/*--------------------------------------------------------------
-# Speakers Section
---------------------------------------------------------------*/
-
-/* #speakers {
-  padding: 60px 0 30px 0;
-}
-
-#speakers .speaker {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#speakers .speaker .details {
-  background: rgba(6, 12, 34, 0.76);
-  position: absolute;
-  left: 0;
-  bottom: -30px;
-  right: 0;
-  text-align: center;
-  padding-top: 10px;
-  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-#speakers .speaker .details h3 {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-#speakers .speaker .details p {
-  color: #fff;
-  font-size: 15px;
-  margin-bottom: 10px;
-  font-style: italic;
-}
-
-#speakers .speaker .details .social {
-  height: 30px;
-}
-
-#speakers .speaker .details a {
-  color: #fff;
-}
-
-#speakers .speaker .details a:hover {
-  color: #f82249;
-}
-
-#speakers .speaker:hover .details {
-  bottom: 0;
-}
-
-#speakers-details {
-  padding: 60px 0;
-}
-
-#speakers-details .details h2 {
-  color: #112363;
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-#speakers-details .details .social {
-  margin-bottom: 15px;
-}
-
-#speakers-details .details .social a {
-  background: #e9edfb;
-  color: #112363;
-  line-height: 1;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  padding-top: 9px;
-}
-
-#speakers-details .details .social a:hover {
-  background: #f82249;
-  color: #fff;
-}
-
-#speakers-details .details .social a i {
-  font-size: 18px;
-}
-
-#speakers-details .details p {
-  color: #112363;
-  font-size: 15px;
-  margin-bottom: 10px;
-} */
 
 /*--------------------------------------------------------------
 # Schedule Section
@@ -986,66 +881,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Hotels Section
---------------------------------------------------------------*/
-
-/* #hotels {
-  padding: 60px 0;
-}
-
-#hotels .hotel {
-  border: 1px solid #e0e5fa;
-  background: #fff;
-  margin-bottom: 30px;
-}
-
-#hotels .hotel:hover .hotel-img img {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-#hotels .hotel-img {
-  overflow: hidden;
-  margin-bottom: 15px;
-}
-
-#hotels .hotel-img img {
-  transition: 0.3s ease-in-out;
-}
-
-#hotels h3 {
-  font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 5px;
-  padding: 0 20px;
-}
-
-#hotels a {
-  color: #152b79;
-}
-
-#hotels a:hover {
-  color: #f82249;
-}
-
-#hotels .stars {
-  padding: 0 20px;
-  margin-bottom: 5px;
-}
-
-#hotels .stars i {
-  color: #ffc31d;
-}
-
-#hotels p {
-  padding: 0 20px;
-  margin-bottom: 20px;
-  color: #060c22;
-  font-style: italic;
-  font-size: 15px;
-} */
-
-/*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
 
@@ -1092,47 +927,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# supporters Section
---------------------------------------------------------------*/
-
-/* #supporters {
-  padding: 60px 0;
-}
-
-#supporters .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
-  margin-bottom: 30px;
-}
-
-#supporters .supporter-logo {
-  padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.5);
-  height: 160px;
-}
-
-#supporters .supporter-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-#supporters img {
-  transition: all 0.4s ease-in-out;
-} */
-
-/*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
 .clients .owl-item {
@@ -1173,7 +967,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Testimonials Section
 --------------------------------*/
 #testimonials .testimonials-content {
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
   padding: 49px 20px;
 }
 
@@ -1245,292 +1039,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0;
 }
 
-
-
-/*--------------------------------------------------------------
-# F.A.Q Section
---------------------------------------------------------------*/
-
-/* #faq {
-  padding: 60px 0;
-}
-
-#faq #faq-list {
-  padding: 0;
-  list-style: none;
-}
-
-#faq #faq-list li {
-  border-bottom: 1px solid #ddd;
-}
-
-#faq #faq-list a {
-  padding: 18px 0;
-  display: block;
-  position: relative;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 600;
-  padding-right: 20px;
-}
-
-#faq #faq-list i {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  top: 16px;
-}
-
-#faq #faq-list p {
-  margin-bottom: 20px;
-}
-
-#faq #faq-list a.collapse {
-  color: #f82249;
-}
-
-#faq #faq-list a.collapsed {
-  color: #000;
-}
-
-#faq #faq-list a.collapsed i::before {
-  content: "\f055" !important;
-} */
-
-/*--------------------------------------------------------------
-# Subscribe Section
---------------------------------------------------------------*/
-
-/* #subscribe {
-  padding: 60px;
-  background: url(../img/subscribe-bg.jpg) center center no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-}
-
-#subscribe:before {
-  content: "";
-  background: rgba(6, 12, 34, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#subscribe .section-header h2,
-#subscribe p {
-  color: #fff;
-}
-
-#subscribe input {
-  background: #fff;
-  color: #060c22;
-  border: 0;
-  outline: none;
-  margin: 0;
-  padding: 9px 20px;
-  border-radius: 50px;
-  font-size: 14px;
-}
-
-#subscribe button {
-  border: 0;
-  padding: 9px 25px;
-  cursor: pointer;
-  background: #f82249;
-  color: #fff;
-  transition: all 0.3s ease;
-  outline: none;
-  font-size: 14px;
-  border-radius: 50px;
-}
-
-#subscribe button:hover {
-  background: #e0072f;
-} */
-
-/*--------------------------------------------------------------
-# Buy Tickets Section
---------------------------------------------------------------*/
-/* #buy-tickets {
-  padding: 60px 0;
-}
-
-#buy-tickets .card {
-  border: none;
-  border-radius: 5px;
-  transition: all  0.3s ease-in-out;
-  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
-}
-
-#buy-tickets .card:hover {
-  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
-}
-
-#buy-tickets .card hr {
-  margin: 25px 0;
-}
-
-#buy-tickets .card .card-title {
-  margin: 10px 0;
-  font-size: 14px;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-#buy-tickets .card .card-price {
-  font-size: 48px;
-  margin: 0;
-}
-
-#buy-tickets .card ul li {
-  margin-bottom: 20px;
-}
-
-#buy-tickets .card .text-muted {
-  opacity: 0.7;
-}
-
-#buy-tickets .card .btn {
-  font-size: 15px;
-  border-radius: 50px;
-  padding: 10px 40px;
-  transition: all 0.2s;
-  background-color: #f82249;
-  border: 0;
-  color: #fff;
-}
-
-#buy-tickets .card .btn:hover {
-  background-color: #e0072f;
-}
-
-#buy-tickets #buy-ticket-modal input,
-#buy-tickets #buy-ticket-modal select {
-  border-radius: 0;
-}
-
-#buy-tickets #buy-ticket-modal .btn {
-  font-size: 15px;
-  border-radius: 50px;
-  padding: 10px 40px;
-  transition: all 0.2s;
-  background-color: #f82249;
-  border: 0;
-  color: #fff;
-}
-
-#buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
-} */
-
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
-
-/* #contact {
-  padding: 60px 0;
-}
-
-#contact .contact-info {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-#contact .contact-info i {
-  font-size: 48px;
-  display: inline-block;
-  margin-bottom: 10px;
-  color: #f82249;
-}
-
-#contact .contact-info address,
-#contact .contact-info p {
-  margin-bottom: 0;
-  color: #112363;
-}
-
-#contact .contact-info h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #112363;
-}
-
-#contact .contact-info a {
-  color: #4869df;
-}
-
-#contact .contact-info a:hover {
-  color: #f82249;
-}
-
-#contact .contact-address,
-#contact .contact-phone,
-#contact .contact-email {
-  margin-bottom: 20px;
-}
-
-#contact .form #sendmessage {
-  color: #f82249;
-  border: 1px solid #f82249;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input,
-#contact .form textarea {
-  padding: 10px 14px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 15px;
-}
-
-#contact .form button[type="submit"] {
-  background: #f82249;
-  border: 0;
-  padding: 10px 40px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-#contact .form button[type="submit"]:hover {
-  background: #e0072f;
-}
- */
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -2067,5 +1575,3 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 0;
   transition: left ease-in-out 0.3s;
 } */
-
-
