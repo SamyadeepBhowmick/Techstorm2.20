@@ -1,4 +1,3 @@
-
 let qrcode
 if(localStorage.getItem("event") && localStorage.getItem("subEvent")){
     let database = firebase.database();
@@ -63,17 +62,16 @@ if(localStorage.getItem("event") && localStorage.getItem("subEvent")){
                 document.getElementById("snackbar").innerHTML="Some error occurred"
                 myFunction()
             }else{
-                console.log("You Were Registered for the Event")
-                    document.getElementById("snackbar").innerHTML="You are registered for "+subEvent
-                    myFunction()
-                    qrcode = new QRCode(document.querySelector(".qr"), {
+                document.getElementById("snackbar").innerHTML="You are registered for "+subEvent
+                myFunction()
+                qrcode = new QRCode(document.querySelector(".qr"), {
                     text: event+" "+subEvent+" "+phone,
                     width: 200,
                     height: 200,
                     colorDark : "#000000",
                     colorLight : "#ffffff",
                     correctLevel : QRCode.CorrectLevel.H
-            });
+                });
                 closeBtn = document.querySelector(".close-button")
                 modal = document.getElementById("modal")
                 openModal()
@@ -104,5 +102,6 @@ function closeModal(e){
     }
     document.querySelector(".qr canvas").remove()
     document.querySelector(".qr img").remove()
+    window.close()
 
 }

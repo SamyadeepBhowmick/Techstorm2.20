@@ -1927,7 +1927,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #ffffff;
   font-size: 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .portfolio .portfolio-wrap:hover::before {

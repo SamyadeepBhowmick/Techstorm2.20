@@ -1,11 +1,3 @@
-// let event1 = document.getElementById("event1")
-// event1.addEventListener("click", (e)=>{
-//         e.preventDefault()
-//         localStorage.setItem("subEvent", event1.classList[0])
-//         window.location.href="/register.html"
-//         modal will be called from here.
-// })
-
 data = [
     {
         "FIFA": {
@@ -17,18 +9,97 @@ data = [
             "description": "lorem",
             "rules" : "ipsum",
             "result": "qweryy"
-        }
+        },
+        "NFS": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "KHET": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "35MMLIVE": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "PASSIONWITHREELS": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "FANTAC": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "TECHNOMANIA": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "APPMANIA": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "OMEGATRIX": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "ROPICKER": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "ROCARROM": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "ROWINGS": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "ROCOMBAT": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "RONAVIGATOR": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "ROTERRANCE": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "ROSOCCER": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+        "EXPOSCIENCE": {
+            "description": "lorem",
+            "rules" : "ipsum",
+            "result": "qweryy"
+        },
+
     }
 ]
 
 function register(name){
         localStorage.setItem("subEvent", name)
         openModal()
-        // window.open("register.html",'_blank')
 }
 modal = document.getElementById("modal")
 closeBtn = document.querySelector(".close-button")
-// btn.addEventListener("click", openModal)
 modal.addEventListener("click", closeModal)
 closeBtn.addEventListener("click", closeModal)
 
@@ -49,6 +120,7 @@ function openModal(){
 //for closing modal
 function closeModal(e){
     if (e.target == modal || e.target == closeBtn) {
+        console.log(e.target)
         modal.classList.remove("active")
         modal.classList.add("out")
     }
