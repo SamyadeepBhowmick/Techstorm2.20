@@ -121,7 +121,9 @@ h2{
 }
 
 .modal-body p{
+    color: black !important;
     font-style: italic;
+    font-weight: bold;
     margin-top: 10px;
     text-align: justify;
     padding-bottom: 25px;
