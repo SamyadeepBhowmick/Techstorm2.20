@@ -19,6 +19,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 a {
   color: #fff;
   transition: 0.5s;
@@ -1574,4 +1578,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 .screenshots .member:hover .social {
   left: 0;
   transition: left ease-in-out 0.3s;
-} */
+}
+

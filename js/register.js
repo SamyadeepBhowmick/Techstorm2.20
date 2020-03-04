@@ -7,7 +7,8 @@ function htmlDept(id){
         <div class="name">Member ${id} Department</div>
         <div class="value">
             <div class="input-group">
-                <input class="input--style-5" type="text" name="dept${id}" id="dept${id}">
+                <input class="input--style-5 check" type="text" name="dept${id}" id="dept${id}">
+                <label class="error dept${id} label--desc">Field is Required</label>
             </div>
         </div>
     </div>`
@@ -18,7 +19,8 @@ function htmlName(id){
         <div class="name">Member ${id} <br>Name</div>
         <div class="value">
             <div class="input-group">
-                <input class="input--style-5" type="text" name="name${id}" id="name${id}">
+                <input class="input--style-5 check" type="text" name="name${id}" id="name${id}">
+                <label class="error name${id} label--desc">Field is Required</label>
             </div>
         </div>
     </div>`
@@ -28,7 +30,8 @@ const htmlTeamName= `
         <div class="name">Team Name</div>
         <div class="value">
             <div class="input-group">
-                <input class="input--style-5" type="text" name="teamName" id="teamName">
+                <input class="input--style-5 check" type="text" name="teamName" id="teamName">
+                <label class="error teamName label--desc">Field is Required</label>
             </div>
         </div>
     </div>`
