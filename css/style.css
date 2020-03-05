@@ -128,7 +128,7 @@ h6 {
 }
 
 .section-header h2 {
-  font-size: 36px;
+  font-size: 45px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -139,7 +139,7 @@ h6 {
   text-align: center;
   padding: 0;
   margin: 0;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 500;
   color: var(--faded-blue);
 }
@@ -293,7 +293,7 @@ h6 {
   color: rgba(202, 206, 221, 0.8);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   outline: none;
 }
 
@@ -336,7 +336,7 @@ h6 {
   margin-left: 8px;
   margin-top: 2px;
   line-height: 1;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .nav-menu li.buy-tickets a:hover {
@@ -536,7 +536,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -548,7 +548,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro p {
   color: #ebebeb;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #intro .play-btn {
@@ -714,7 +714,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about p {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -941,7 +941,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .clients .owl-item img {
-  height: 80%;
+  height: 70%;
   opacity: 0.5;
   transition: 0.3s;
 }
@@ -1274,6 +1274,23 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 34px;
   }
 
+  #intro h2{
+    color: white;
+    font-size: 20px;
+    font-weight: medium;
+    position: absolute;
+    top: -12px;
+  }
+
+  .section-header p{
+    font-size: 16px;
+  }
+
+  .section-header h2{
+    padding-top: 15px;
+    font-size: 30px;
+  }
+
   #intro p {
     font-size: 16px;
   }
@@ -1367,7 +1384,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(96, 122, 122, 0.6);
+  background: rgba(145, 189, 189, 0.2);
   position: absolute;
   left: 100%;
   right: 0;
@@ -1395,16 +1412,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: var(--lightblue);
+  color: #fff;
   margin: 0 4px;
   font-size: 18px;
+  font-weight: 300px;
   line-height: 1;
-  background-color: #fff;
+  background-color: var(--lightblue);
   padding-top: 6px;
   padding-right: 1px;
   border-radius: 50px;
   text-align: center;
-  width: 32px;
+  text-transform: uppercase;
+  width: 120px;
   height: 32px;
   display: inline-block;
   transition: 0.3s;
@@ -1431,14 +1450,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
+  font-size: 35px;
   color: #fff;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 20px;
   /* text-transform: uppercase; */
 }
 
