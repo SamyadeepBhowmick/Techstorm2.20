@@ -1,7 +1,7 @@
 // localStorage.setItem("event", "BrainTeasers")
 // localStorage.setItem("subEvent", "OMEGATRIX")
 
-function htmlDept(id){
+function htmlDeptCheck(id){
     return`
     <div class="form-row m-b-55">
         <div class="name">Member ${id} Department</div>
@@ -13,7 +13,7 @@ function htmlDept(id){
         </div>
     </div>`
 }
-function htmlName(id){
+function htmlNameCheck(id){
     return `
     <div class="form-row m-b-55">
         <div class="name">Member ${id} <br>Name</div>
@@ -21,6 +21,29 @@ function htmlName(id){
             <div class="input-group">
                 <input class="input--style-5 check" type="text" name="name${id}" id="name${id}">
                 <label class="error name${id} label--desc">Field is Required</label>
+            </div>
+        </div>
+    </div>`
+}
+function htmlDept(id){
+    return`
+    <div class="form-row m-b-55">
+        <div class="name">Member ${id} Department</div>
+        <div class="value">
+            <div class="input-group">
+                <input class="input--style-5 dept-uncheck dept-uncheck${id}" type="text" name="dept${id}" id="${id}">
+                <label class="error dept-uncheck${id} label--desc">Field is Required</label>
+            </div>
+        </div>
+    </div>`
+}
+function htmlName(id){
+    return`
+    <div class="form-row m-b-55">
+        <div class="name">Member ${id} <br>Name</div>
+        <div class="value">
+            <div class="input-group">
+                <input class="input--style-5 name-uncheck name-uncheck${id}" type="text" name="name${id}" id="${id}">
             </div>
         </div>
     </div>`
@@ -59,10 +82,14 @@ switch(subEvent){
     case "ROSOCCER":
     case "ROWINGS":
     case "ROCARROM": 
-        for(i=2;i<=5;i++){
+        for(i=2;i<=3;i++){
+            extra.innerHTML += htmlNameCheck(i)
+            extra.innerHTML += htmlDeptCheck(i)
+        }//required part
+        for(i=4;i<=5;i++){
             extra.innerHTML += htmlName(i)
             extra.innerHTML += htmlDept(i)
-        }
+        }//not required part
         teamName.innerHTML += htmlTeamName
         break;
     case "PASSIONWITHREELS":

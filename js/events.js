@@ -259,7 +259,7 @@ data = [
             engineering concepts.<br/><br/>
             Registration Fees<br/>
 •BPPIMT Teams: INR 100/-<br/>
-•Other Teams: INR 120/-
+•Other Teams: INR 150/-
             `,
             "rules" : `Rules<br/>
             1. It should consist of hardware model on science and technology along with a powerpoint presentation.<br/><br/>

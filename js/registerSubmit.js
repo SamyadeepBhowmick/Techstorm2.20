@@ -29,10 +29,15 @@ if(localStorage.getItem("event") && localStorage.getItem("subEvent")){
                 case "ROSOCCER":
                 case "ROWINGS":
                 case "ROCARROM": 
-                    for(i=2;i<=5;i++){
+                    for(i=2;i<=3;i++){
                         members.push({
                             "name": document.getElementById(`name${i}`).value, 
                             "department": document.getElementById(`dept${i}`).value})
+                    }
+                    for(i=4;i<=5;i++){
+                        members.push({
+                            "name": document.querySelector(`.name-uncheck${i}`).value, 
+                            "department": document.querySelector(`.dept-uncheck${i}`).value})
                     }
                     teamName = document.getElementById("teamName").value
                     break;
@@ -98,11 +103,39 @@ function validate(){
     let email = validateEmail()
     let phone = validatePhone()
     let fields = checkFields()
-    if (email && phone && fields){
+    let unchecked = validateUnchecked()
+    if (email && phone && fields && unchecked){
         return true
     }else{
         return false
     }
+}
+
+function validateUnchecked(){
+    let check = false
+    let unchecked = document.querySelectorAll(".name-uncheck")
+    if(unchecked.length === 0){
+        return true
+    }
+    for(i=0;i<unchecked.length;i++){
+        let name = document.getElementById(`${unchecked[i].id}`).value
+        if (name!==""){
+            if(document.querySelector(`.dept-uncheck`).value){
+                check = true
+            }else{
+                document.querySelector(`.error.dept-uncheck${unchecked[i].id}`).style.display="block"
+                setTimeout(()=> {
+                    for(i=0;i<unchecked.length;i++)
+                        document.querySelector(`.error.dept-uncheck${unchecked[i].id}`).style.display = "none"
+                }, 5000)
+                check = false
+            }
+        }
+        else{
+            check=false
+        }
+    }
+    return check
 }
 
 function validatePhone(){

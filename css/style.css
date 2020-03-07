@@ -38,7 +38,7 @@ a:focus {
 
 p {
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 60px 0;
 }
 
 h1,
@@ -699,7 +699,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about h2 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
@@ -714,7 +714,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about p {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -779,6 +779,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
 }
 
 #schedule .schedule-item .speaker {
@@ -799,7 +802,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .schedule-item h4 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -808,7 +811,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
   color: #19328e;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #schedule .schedule-item p {
@@ -1599,3 +1602,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: left ease-in-out 0.3s;
 }
 
+@media (min-width: 1200px){
+.container {
+    max-width: 1520px;
+}
+}

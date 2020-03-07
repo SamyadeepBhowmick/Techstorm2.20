@@ -1412,8 +1412,7 @@
 	}
 
 	body {
-		background-color: #0D324C;
-		background-image: url("../../img/gradient.jpeg");
+		background-color: rgb(187, 234, 253);
 		background-size: cover;
 		background-position: top center;
 	}
@@ -1688,8 +1687,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #FF6382;
-			box-shadow: 0 0 0 1px #FF6382;
+			border-color: #092863;
+			box-shadow: 0 0 0 1px #092863;
 		}
 
 	.select-wrapper {
@@ -2216,7 +2215,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #FF6382;
+		background-color: #092863;
 		border-radius: 4px;
 		border: 0;
 		/* color: !important; */
@@ -2236,7 +2235,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #ff7c96;
+			background-color: #092863;
 		}
 
 		input[type="submit"]:active,
@@ -2244,7 +2243,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #ff496e;
+			background-color: #092863;
 		}
 
 		input[type="submit"].icon,
@@ -2418,11 +2417,15 @@
 
 			.thumbnails a h3 {
 				margin: 1em;
+				text-transform: uppercase;
+				color: black;
+				font-size: 25px;
+				font-weight: medium;
 			}
 
 			.thumbnails a:hover {
 				background-color: rgba(255, 255, 255, 0.25);
-				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
+				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #092863;
 			}
 
 		.thumbnails > div {
@@ -2556,10 +2559,15 @@
 /* Wrapper */
 
 	#wrapper {
-		max-width: 68em;
+		background-image: url('../../img/gradient.jpeg');
+		background-size: cover;
+		max-width: 90em;
 		width: 100%;
-		margin: 0 auto;
+		margin: 2em auto;
+		border-radius: 20px;
+		box-shadow: 20px 20px 60px grey;
 		padding: 0 2em;
+		padding-bottom: 2em;
 		opacity: 1;
 		filter: none;
 		-moz-transition: opacity 1s ease, -moz-filter 1s ease;
