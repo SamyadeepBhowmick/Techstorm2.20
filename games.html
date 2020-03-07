@@ -14,6 +14,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js"></script>
+
 		<link rel="stylesheet" href="css/modal.css">
 		<link rel="stylesheet" href="css/events.css" />
 	</head>	
@@ -35,21 +37,21 @@
 				<section class="thumbnails" style="display: flex; justify-content: center; flex-wrap: wrap;">
 					<div>
 						<a id="event1" class="KHET" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="img/gallery/khet.jpg" alt="" />
+							<img data-src="img/gallery/khet.jpg" class="lazyload" alt="" />
 							<h3>Khet</h3>
 						</a>
 						<a id="event2" class="FIFA" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="img/gallery/fifa.jpg" alt="" />
+							<img data-src="img/gallery/fifa.jpg" class="lazyload" alt="" />
 							<h3>Fifa</h3>
 						</a>
 					</div>
 					<div>
 						<a id="event3" class="COC" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="img/gallery/coc.jpg" alt="" />
+							<img data-src="img/gallery/coc.jpg" class="lazyload" alt="" />
 							<h3>Clash Of Clans</h3>
 						</a>
 						<a id="event4" class="NFS" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="img/gallery/nfs.jpg" alt="" />
+							<img data-src="img/gallery/nfs.jpg" class="lazyload" alt="" />
 							<h3>Need For Speed</h3>
 						</a>
 					</div>

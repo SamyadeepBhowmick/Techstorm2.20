@@ -14,6 +14,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js"></script>
+
 		<link rel="stylesheet" href="css/modal.css">
 		<link rel="stylesheet" href="css/events.css" />
 	</head>
@@ -35,19 +37,19 @@
 				<section class="thumbnails" style="display: flex; justify-content: center; flex-wrap: wrap;">
 					<div>
 						<a id="event1" class="PASSIONWITHREELS" style="border-radius: 10%;" onclick="register(this.classList[0])">
-							<img src="img/gallery/pwr.jpg" alt="" />
+							<img data-src="img/gallery/pwr.jpg" class="lazyload" alt="" />
 							<h3>Passion With Reels</h3>
 						</a>
 					</div>
 					<div>
 						<a id="event2" class="35MMLIVE"style="border-radius: 10%;" onclick="register(this.classList[0])" >
-							<img src="img/gallery/35mm.jpg" alt="" />
+							<img data-src="img/gallery/35mm.jpg" class="lazyload" alt="" />
 							<h3>35MM LIVE</h3>
 						</a>
 					</div>
 					<div>
 						<a id="event3" class="" style="border-radius: 10%;">
-							<img src="img/gallery/expo.jpg" alt="" />
+							<img data-src="img/gallery/expo.jpg" class="lazyload" alt="" />
 							<h3>Exposcience</h3>
 						</a>
 					</div>  
