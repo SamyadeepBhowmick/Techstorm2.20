@@ -2559,7 +2559,7 @@
 /* Wrapper */
 
 	#wrapper {
-		background-image: url('../../img/gradient.jpeg');
+		background-image: url('../img/gradient.jpeg');
 		background-size: cover;
 		max-width: 90em;
 		width: 100%;
