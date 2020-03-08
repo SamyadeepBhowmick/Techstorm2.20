@@ -16,7 +16,7 @@
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body::-webkit-scrollbar{
@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -193,7 +193,7 @@ h6 {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -291,7 +291,7 @@ h6 {
   text-decoration: none;
   display: inline-block;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 18px;
   outline: none;
@@ -535,7 +535,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 60px;
   font-weight: 600;
   text-transform: uppercase;
@@ -626,7 +626,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -990,7 +990,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .top-top > h2 {
-  font-family: "Roboto" sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -1071,7 +1071,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -1085,7 +1085,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
 
@@ -1383,6 +1383,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   border-radius: 8px;
   z-index: 1;
+  /* width: 680px; */
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1401,6 +1402,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
   position: relative;
   z-index: 1;
+  /* width: 680px; */
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
