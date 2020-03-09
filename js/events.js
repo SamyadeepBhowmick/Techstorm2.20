@@ -1,21 +1,19 @@
 data = [
     {
         "FIFA": {
-            "description": `Event Name : Fifa 19<br/><br/>
+            "description": `Event Name : Fifa 19<br/>
             Team Size: Solo<br/><br/>
-            Participation Fees for College Students: ₹40<br/> and other
-            Students: ₹60<br/><br/>
             Event Description :<br/>
             Since this is a gaming event each participant has to play a
             stand alone match. Gamers are allowed to bring
             controllers with them. Round 2 will be strictly played on
             wcg rule so gear up urself for round 2 to be a part of it.<br/><br/>
+            Participation Fees for College Students: ₹40<br/> and other
+            Students: ₹60<br/><br/>
             Contact Person:<br/>
              Partho Malakar(IT)-8910508026<br/>
              Abhishek Kumar(CSE)-7044383703`,
-            "rules" : `FIFA 19<br/>
-            Rules and Regulations :<br/><br/> 
-            
+            "rules" : `
             1.The players are not allowed to shoot the ball directly onto the crossbar from a corner kick in order to get a chance for a header when the ball rebounds or score directly from corner.<br/><br/>
             
             2.It is not allowed to score a goal from one's own half of the field.<br/><br/>
@@ -68,7 +66,7 @@ data = [
             Pitch Wear: None<br/>
             Stadium: Neutral<br/>
             Goalkeeper Control: Yes`,
-            "result" : "Not yet"
+            "result" : "Not yet out"
         },
         "COC": {
             "description": `
@@ -79,8 +77,7 @@ data = [
             
             Registration Fees for College Students: ₹30<br/>
             and other Students: ₹50`,
-            "rules" : `CLASH OF CLANS (COC)<br/>
-            Rules:<br/><br/>
+            "rules" : `
                 1. Townhall 7 to Townhall 9 only.<br/><br/>
                 2. Mod or any other 3rd party softwares are not allowed.<br/><br/>
                 3. One entry per person.<br/><br/>
@@ -92,7 +89,9 @@ data = [
             "result": "Not yet out"
         },
         "NFS": {
-            "description": "lorem",
+            "description": `Take the wheel and drive your car to the chequered flag cause this game is all about speed. The faster you are, the better your chances<br/><br/>
+            
+            `,
             "rules" : `NFS MOST WANTED<br/><br/>
             Game Version : NFS Most Wanted 1.3<br/>
             General Competition Method : 4 players<br/><br/>
@@ -145,7 +144,7 @@ data = [
             must press the button on his/her laser. The beam bounces from mirror to mirror around the playing
             field. The challenge is to protect one&#39;s own pharaoh while maneuvering to &quot;light up&quot; the opposing
             player&#39;s pharaoh.`,
-            "rules" : `Rules:<br/><br/>
+            "rules" : `
             PRELIMS-I:<br/>1.Two Players will be in one set at a time.<br/><br/>
             2. In each turn player will get max 2 minutes for next 30 seconds (-1) will be added and for next 30
             seconds another (-1) will be added.<br/><br/>
@@ -175,8 +174,92 @@ data = [
             "result": "Not yet out"
         },
         "35MMLIVE": {
-            "description": "lorem",
-            "rules" : "ipsum",
+            "description": `Event description<br/>
+            Photography is an art of creating moving or still pictures by recording
+            radiation on a sensitive medium. It is proved to be a beneficial medium
+            for the purpose of capturing momentous moment of life.
+            
+            Pictures speak a thousand words than mere sentence and that is all about
+            &quot;35 mm LIVE&quot;...<br/><br/>
+            Objective<br/>
+            There is no design without discipline; there is no discipline without
+            intelligence...
+            There is no doubt that creativity is the most important human resource of
+            all. Without creativity, there would be no progress and we would be
+            forever repeating the same patterns. techstorm 2.20 is a platform for
+            innovations, you will be rewarded, if you have the element, an ability to
+            view the world from a wider perspective and envisage that which never
+            was...<br/><br/>
+            Registration<br/><br/>
+            1. The registration fee is Rs. 100 per participant, who will be allowed
+            to submit 4 photographs. However, per additional 2 photographs
+            submitted an excess charge of Rs. 15 will be levied. However for
+            BPPIMT students, registration fee is Rs. 50 per participant and
+            maximum of 6 photos will be accepted.<br/><br/>
+            2. The participants must bring their photographs (soft copy) and their
+            required data in a CD/Pen drive and might be asked to show during
+            the fest.<br/><br/>
+            3. Every participant must produce his/her college Identity Card during
+            registration or whenever asked for.<br/><br/>
+            4. Mode of payment will be e-mailed to the participant after we
+            receive the mail from the participant and a time will be given for
+            them to submit the requisite money.<br/><br/>
+            Event Co-ordinators<br/><br/>
+            Nibedita Saha<br/>
+            8240579258
+            `,
+            "rules" : `Qualification Rules<br/><br/>
+            1. Only individuals can participate. No group or team formation is
+            allowed.<br/><br/>
+            2. We have FOUR basic genres for the theme: &quot;Emotion of the life&quot;<br/><br/>
+            3. The participant can submit photographs for any/all of the four
+            genres.<br/><br/>
+            1. Conceptual or Macro<br/><br/>
+            2. Portraits and Expression<br/><br/>
+            3. Nature or Landscape<br/><br/>
+            4. Street Photography or action<br/><br/>
+            b. All individual is allowed to submit a maximum of 6 photos with a
+            maximum of two per genres.<br/><br/>
+            c. The photographs should be original and unedited. Editing can be
+            done only to improve the contrast, colour, brightness to bring the
+            originality of the situation. No addition or removals of objects or
+            any other editing procedures are allowed. Photoshop editing is
+            strictly forbidden.<br/><br/>
+            d. Participants will be disqualified if the above parameters are not
+            obeyed.<br/><br/>
+            e. Watermarks and names on the photos are not allowed.<br/><br/>
+            f. The participants must abide by the specifications given below
+            otherwise that would lead to negative marking.<br/><br/>
+            g. The photos must be ATLEAST 5 Mega-Pixel and MAXIMUM 15 MB in
+            size.<br/><br/>
+            h. The format must be simple JPEG or JPG file. No other file formats
+            will be accepted.<br/><br/>
+            i. During submission, the participant must follow these simple steps:-<br/><br/>
+            
+            1. The file name of the photos should<br/><br/>
+            be name_collegename_genre_serial no. (For e.g. if the name is
+            Puja Vasa and the college is BPPIMT and the genre is PORTRAIT, the
+            respective file name should be PujaVasa_BPPIMT_Portrait_1)
+            2. In a separate notepad file, he/she must provide the following
+            for every photo<br/><br/>
+            1. Title to the photograph<br/><br/>
+            2. File name<br/><br/>
+            3. Location of shoot (LOCATION OF SHOOT MUST BE
+            WITHIN WEST BENGAL)<br/><br/>
+            4. Camera make &amp; model, Lens, Aperture, Shutter speed
+            and ISO<br/><br/>
+            b. In the same note pad, Personal details should include:
+            name, email-id and Mobile number to contact, in case
+            of you are a winner!!<br/><br/>
+            
+            b. Participate is required to provide a scanned picture of the college
+            Identity Card through the mail along with their submission in the
+            same mail.<br/><br/>
+            c. Submission has to be mailed to the email address
+            participation.techstorm12@gmail.com latest by 25th September,
+            2012 within 5pm. Entries after this date will not be accepted.<br/><br/>
+            d. The subject of the mail should be 35mm LIVE else the mails will
+            not be accepted.`,
             "result": "Not yet out"
         },
         "PASSIONWITHREELS": {
@@ -258,10 +341,10 @@ data = [
             electronics circuit design. It also encourages them to nurture their creativity and innovation on applied
             engineering concepts.<br/><br/>
             Registration Fees<br/>
-•BPPIMT Teams: INR 100/-<br/>
-•Other Teams: INR 150/-
+•BPPIMT Teams: ₹100/-<br/>
+•Other Teams: ₹150/-
             `,
-            "rules" : `Rules<br/>
+            "rules" : `
             1. It should consist of hardware model on science and technology along with a powerpoint presentation.<br/><br/>
             2. The members of a single team should be from the same institute.<br/><br/>
             3. Each team must consist of 4 members.<br/><br/>
@@ -273,13 +356,8 @@ data = [
             "result": "Not yet out"
         },
         "APPMANIA": {
-            "description": `Team Size: 2<br/><br/>
-
-            ● Participation Fees for College Students: ₹​​100<br/>
-            
-            ● and other Students: ₹​​150<br/><br/>
+            "description": `
             Event Description :<br/>
-            
             *BP PODDAR INSTITUTE OF MANAGEMENT AND TECHNOLOGY* presents
             *APPMANIA* in the awaited *TECHSTORM 2.20* Calling all the
             young innovators with a knack to hack together the next disruptive
@@ -294,12 +372,17 @@ data = [
             App/Website is OPEN!!!<br/>
             
             PLEASE DO LIKE APPMAINA IN TECHSTORM 2.20 OFFICIAL FB PAGE<br/><br/>
+
+            Team Size: 2<br/><br/>
+
+            ● Participation Fees for College Students: ₹​​100<br/>
+            
+            ● and other Students: ₹​​150<br/><br/>
             Contact Person:<br/>
 ● Punit khandelwal(CSE)-9804747631<br/>
 ● Swaraj khan(CSE)-9064297782<br/>
 ● Sreejita Dutta Gupta(IT)-8017891044`,
-            "rules" : `Rules of the event:<br/><br/>
-
+            "rules" : `
             ❏ ​A ​maximum of 2 members ​are allowed in a single team.One single participant
             
             can also represent the team.<br/><br/>
@@ -432,7 +515,10 @@ data = [
             show that your team and your bot are connected through the same string forming
             a beautiful ornament from your lustrous bonding, understanding and awareness.
             Pocket carrom-men, overcome obstacles, defeat your opponent and show
-            everyone that you and your bot are bestfriends.`,
+            everyone that you and your bot are bestfriends.<br/><br/>
+            FEE ₹100 for bppimt<br/>
+            ₹150 for non bppimt
+            `,
             "rules" : `OVERVIEW<br/>
             Level 1 (Prelims): Game will start with a single bot. Team pocketing all the
             carrom men at a least time will be qualified for NEXT LEVEL.<br/><br/>
@@ -802,8 +888,60 @@ Ankita Das (ECE) - 9163196780
             "result": "Not yet out"
         },
         "EXPOSCIENCE": {
-            "description": "lorem",
-            "rules" : "ipsum",
+            "description": `Event description<br/>
+            Exposcience is a science model competition for the school
+            students with the sole objective of fostering scientific
+            curiosity, creativity among students. This competition
+            provides a platform to exhibit and share their knowledge and
+            passion for science through interaction with peers and
+            audiences.<br/><br/>
+            Objective<br/>
+            Science always reveals a new truth, a new discovery, an
+            unknown reality. As the necessities change and so the
+            inventions and development. It keeps growing and can never
+            be dull and boring. Science exhibitions explore the creative
+            talent of the students and force them to think outside of the
+            box. Science exhibitions develop a scientific spirit and
+            curiosity in a student which in turn forces them to think and
+            
+            creatively find solutions to the challenges. Students enjoy
+            learning through such exhibitions and feel a sense of
+            belonging as they make the models with their own hands.<br/><br/>
+            Participation<br/>
+            Soft copy of the report should be submitted via email to the following e-mail
+            address sensanjuktasen@gmail.com,prb000047@gmail.com with in April 02,
+            2020.<br/><br/>
+            Rewards<br/>
+            Three teams will be winner in each category. School and students both will be
+            recognized with exciting prizes.
+            `,
+            "rules" : `Qualification Rules<br/>
+            &#9724; Teams should be nominated by school. Each team can have 4
+            members. One teacher mentor need to associate with the team.<br/>
+             One school may have multiple teams.<br/>
+             Each team should submit a proposal or report of the model including
+            the following points:<br/>
+             Title of the model/project<br/>
+             Working Principle.<br/>
+             Component.<br/>
+             Requirements (if any for exhibition)<br/><br/>
+            
+            Rules of the competition<br/>
+             Science models should belongs to any of the following category:<br/>
+             Recycle of waste management.<br/>
+             Non conventional enery.<br/>
+             Application of Electricity &amp; Electronics concepts.<br/>
+             Robotics.<br/>
+             Competiotion will be held in two categories<br/>
+             Category I : Class IX-X<br/>
+             Category II : Class XI-XII<br/>
+             Proposals will be scrutinize by the Techstorm committee and selected
+            teams will be invited to participate in the competition.<br/>
+             Each team should present their model on the day of the event.The
+            model can be of any form (working model or theoretical model or
+            dummy model).<br/>
+             Competition will be held on April 07, 2020 between 10.30 AM to 5.30
+            PM`,
             "result": "Not yet out"
         },
 

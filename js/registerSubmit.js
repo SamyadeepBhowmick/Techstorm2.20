@@ -14,43 +14,17 @@ if(localStorage.getItem("event") && localStorage.getItem("subEvent")){
             let teamName = ""
             let event = localStorage.getItem("event")
             let subEvent = localStorage.getItem("subEvent")
-            switch(subEvent){
-                case "APPMANIA":
-                case "FANTAC":
-                    members.push({"name": document.getElementById("name2").value, 
-                                "department": document.getElementById("dept2").value})
-                    teamName = document.getElementById("teamName").value
-                    break
-                case "TECHNOMANIA":
-                case "ROCOMBAT":
-                case "RONAVIGATOR":
-                case "ROPICKER":
-                case "ROTERRANCE":
-                case "ROSOCCER":
-                case "ROWINGS":
-                case "ROCARROM": 
-                    for(i=2;i<=3;i++){
-                        members.push({
-                            "name": document.getElementById(`name${i}`).value, 
-                            "department": document.getElementById(`dept${i}`).value})
-                    }
-                    for(i=4;i<=5;i++){
-                        members.push({
-                            "name": document.querySelector(`.name-uncheck${i}`).value, 
-                            "department": document.querySelector(`.dept-uncheck${i}`).value})
-                    }
-                    teamName = document.getElementById("teamName").value
-                    break;
-                case "PASSIONWITHREELS":
-                    for(i=2;i<=8;i++){
-                        members.push({
-                            "name": document.getElementById(`name${i}`).value, 
-                            "department": document.getElementById(`dept${i}`).value})
-                    }
-                    teamName = document.getElementById("teamName").value
-                    break;
+            
+
+            let fields = document.querySelectorAll(".extra")
+            for(let i=0;i<fields.length/2;i++){
+                members.push({
+                        "name": document.getElementById(`name${i+2}`).value, 
+                        "department": document.getElementById(`dept${i+2}`).value
+                })
             }
             // console.log(name, email, dept, phone, event, subEvent, teamName, members)
+            document.querySelector(".loader-1").style.display="block"
             let date = new Date()
             database.ref(`${event}/${subEvent}/${phone}`).set({
                 a_teamName: teamName,
@@ -103,40 +77,29 @@ function validate(){
     let email = validateEmail()
     let phone = validatePhone()
     let fields = checkFields()
-    let unchecked = validateUnchecked()
-    if (email && phone && fields && unchecked){
+    let teamname = validateTeamName()
+    if (email && phone && fields && teamname){
         return true
     }else{
         return false
     }
 }
 
-function validateUnchecked(){
-    let check = false
-    let unchecked = document.querySelectorAll(".name-uncheck")
-    if(unchecked.length === 0){
-        return true
+function validateTeamName(){
+    let name = document.getElementById(`teamName`)
+    if (name.value!==""){
+        return true;
     }
-    for(i=0;i<unchecked.length;i++){
-        let name = document.getElementById(`${unchecked[i].id}`).value
-        if (name!==""){
-            if(document.querySelector(`.dept-uncheck`).value){
-                check = true
-            }else{
-                document.querySelector(`.error.dept-uncheck${unchecked[i].id}`).style.display="block"
-                setTimeout(()=> {
-                    for(i=0;i<unchecked.length;i++)
-                        document.querySelector(`.error.dept-uncheck${unchecked[i].id}`).style.display = "none"
-                }, 5000)
-                check = false
-            }
-        }
-        else{
-            check=false
-        }
+    else{
+        document.querySelector(".error.teamName").style.display = "block"
+        setTimeout(()=> {
+            document.querySelector(".error.teamName").style.display = "none"
+        }, 5000)
+        check = false
     }
-    return check
 }
+        
+
 
 function validatePhone(){
     let phone = document.getElementById("phone").value
@@ -162,25 +125,33 @@ function validateEmail(){
 
 function checkFields(){
     let fields = document.querySelectorAll(".check")
-    let check = false
-    console.log(fields.length)
+    let check = []
+    for(i=0; i<fields.length;i++){
+        check.push(false)
+    }
+    // console.log(fields.length)
+    var letters = /^[A-Za-z]+$/;
     for(i=0;i<fields.length;i++){
-        if(document.getElementById(`${fields[i].id}`).value){
-            console.log(true)
-            check = true
+        if(document.getElementById(`${fields[i].id}`).value.match(letters)){
+            // console.log(true)
+            check[i] = true
         }else{
-            console.log(false)
-            document.querySelector(`.error.${fields[i].id}`).style.display = "block"
+            // console.log(false)
+            document.querySelector(`.error.${fields[i].id}`).style.display = "block"    
             setTimeout(()=> {
                 for(i=0;i<fields.length;i++)
                     document.querySelector(`.error.${fields[i].id}`).style.display = "none"
             }, 5000)
-            check = false
+            check[i] = false
         }
     }
-    return check
+    for(i=0; i<fields.length;i++){
+        if(check[i] === false){
+            return false
+        }
+    }
+    return true
 }
-
 
 function openModal(){
     let subEvent = localStorage.getItem("subEvent")
