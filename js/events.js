@@ -8,6 +8,7 @@ data = [
             stand alone match. Gamers are allowed to bring
             controllers with them. Round 2 will be strictly played on
             wcg rule so gear up urself for round 2 to be a part of it.<br/><br/>
+            <b class="b">Registration fees:</b><br/>
             Participation Fees for College Students: ₹40<br/> and other
             Students: ₹60<br/><br/>
             <b class="b">Contact Person:</b><br/>
@@ -76,7 +77,7 @@ data = [
             <b class="b">Event Description:</b><br/>
             
             Hey chief! Welcome! To  our clan, we've been waiting for you. Techstorm 2.20 brings you the opportunity to show off your skills and  to prove to the Clashing Universe that you are the best in the business! So get your armies trained, your heroes healed up to go for the win because we believe that an epic win is possible and that it's always worth trying. CLASH ON!!<br/><br/>
-            
+            <b class="b">Registration fees:</b><br/>
             Registration Fees for College Students: ₹30<br/>
             and other Students: ₹50<br/><br/>
             <b class="b">Contact Person:</b></br>
@@ -94,49 +95,58 @@ data = [
             "result": "Not yet out"
         },
         "NFS": {
-            "description": `Take the wheel and drive your car to the chequered flag cause this game is all about speed. The faster you are, the better your chances<br/><br/>
-            <b class="b">Vimal Kishore(CSE):8083336565</b>
+            "description": `<b class="b">Event Name:</b> NFS MOST WANTED 1.3<br/><br/>
+            <b class="b">Event Description:</b><br/>
+            Take the wheel and drive your car to the chequered flag cause this game is all about speed. The faster you are, the better your chances.<br/><br/>
+            <b class="b">Registration fees:</b><br/>
+            Participation Fees for College Students: ₹<br/> and other
+            Students: ₹<br/><br/>
+            <b class="b">Contact Person:</b><br/>
+            &#9724; Vimal Kishore(CSE):8083336565
             `,
-            "rules" : `NFS MOST WANTED<br/><br/>
-            Game Version : NFS Most Wanted 1.3<br/>
-            General Competition Method : 4 players<br/><br/>
-            COMPETITION STRUCTURE<br/>
-            First day of the event : Preliminaries<br/>
-            Second day of the event : Main Tournament<br/><br/>
-            RULES FOR PRELIMINARIES<br/>
-            Game Type : Circuit , Sprint<br/>
-            The Circuit is for 2 rounds.<br/>
+            "rules" : `
+            <b class="b">General Competition Method:</b> 4 players<br/><br/>
+            <b class="b">COMPETITION STRUCTURE</b><br/>
+            &#9724; First day of the event : Preliminaries<br/>
+            &#9724; Second day of the event : Main Tournament<br/><br/>
+            <b class="b">RULES FOR PRELIMINARIES</b><br/>
+            &#9724; Game Type : Circuit , Sprint<br/>
+            &#9724; The Circuit is for 2 rounds.<br/>
             Players getting the 1 st position shall qualify for the next round.<br/><br/>
-            RULES FOR THE TOURNAMENT<br/>
-            1.The tournament will be knock out.<br/>
-            2.The player who wins there 1 st stage match advances to the next stage.<br/>
-            3.There will not be any match played for the third spot.<br/><br/>
-            GAME SETTING<br/>
-            1.Courses: Course selection is done by the game administrator.<br/>
-            2.Car settings : All cars are available.<br/>
-            3.Race Mode Options :<br/>
-            *Nitrous : On<br/>
-            *Collision Detection : On<br/>
-            *Performance Matching : Off<br/>
-            *Units : Players own discretion<br/>
-            4.Player Mode Options :<br/>
-            *Game Moment Camera : Off<br/>
-            *Car Damage : Off<br/>
-            *Rear View Mirror : Player’s own discretion<br/>
-            5.Players are provided with a standard keyboard and mouse.Other controllers and Steering Wheels are
-            not allowed.<br/><br/>
-            PENALTY FOR UNFAIR PLAY<br/>
+            <b class="b">RULES FOR THE TOURNAMENT</b><br/>
+            <ol><li> The tournament will be knock out.</li>
+            <li> The player who wins there 1 st stage match advances to the next stage.</li>
+            <li> There will not be any match played for the third spot.</li></ol>
+            <b class="b">GAME SETTING</b><br/>
+            <ol><li>Courses: Course selection is done by the game administrator.</li>
+            <li>Car settings : All cars are available.</li>
+            <li>Race Mode Options :</li>
+            <ul>
+            <li>Nitrous : On</li>
+            <li>Collision Detection : On</li>
+            <li>Performance Matching : Off</li>
+            <li>Units : Players own discretion</li>
+            </ul>
+            <li>Player Mode Options :</li>
+            <ul>
+            <li>Game Moment Camera : Off</li>
+            <li>Car Damage : Off</li>
+            <li>Rear View Mirror : Player’s own discretion</li>
+            </ul>
+            <li>Players are provided with a standard keyboard and mouse.Other controllers and Steering Wheels are
+            not allowed.</li></ol>
+            <b class="b">PENALTY FOR UNFAIR PLAY</b><br/>
             &#9724; Unfair Play<br/>
             &#9724; Use of any cheat program<br/>
             &#9724; Intentional disconnection<br/>
             &#9724; Use of any settings exceeding standard and permitted settings.<br/><br/>
-            If the match is disrupted due to unnecessary chatting,the players may be given a warning or lose by
-            default at the referee’s sole discretion.<br/><br/>
-            Upon discovery of any player committing any violations regarded as unfair play that player will be
-            disqualified from the tournament preliminaries.<br/><br/>
-            During the course of any match , the operations staff or referee may determine other actions to be
-            unfair play at any time.<br/><br/>
-            Two warnings constitute being disqualified from the tournament Preliminaries.`,
+            &#9724; If the match is disrupted due to unnecessary chatting,the players may be given a warning or lose by
+            default at the referee’s sole discretion.<br/>
+            &#9724; Upon discovery of any player committing any violations regarded as unfair play that player will be
+            disqualified from the tournament preliminaries.<br/>
+            &#9724; During the course of any match , the operations staff or referee may determine other actions to be
+            unfair play at any time.<br/>
+            &#9724; Two warnings constitute being disqualified from the tournament Preliminaries.`,
             "result": "Not yet out"
         },
         "KHET": {
@@ -149,6 +159,9 @@ data = [
             must press the button on his/her laser. The beam bounces from mirror to mirror around the playing
             field. The challenge is to protect one&#39;s own pharaoh while maneuvering to &quot;light up&quot; the opposing
             player&#39;s pharaoh.<br/><br/>
+            <b class="b">Registration fees:</b><br/>
+            Registration Fees for College Students: ₹<br/>
+            and other Students: ₹<br/><br/>
             <b class="b">Contact Person:</b><br/>
             &#9724; Sinjon Nath(ECE):8910964359<br/>
             &#9724; Dibyotama Chatterjee(ECE):8240259213
@@ -187,14 +200,14 @@ data = [
             "result": "Not yet out"
         },
         "35MMLIVE": {
-            "description": `<b class="b">Event description</b><br/>
+            "description": `<b class="b">Event description:</b><br/>
             Photography is an art of creating moving or still pictures by recording
             radiation on a sensitive medium. It is proved to be a beneficial medium
             for the purpose of capturing momentous moment of life.
             
             Pictures speak a thousand words than mere sentence and that is all about
             &quot;35 mm LIVE&quot;...<br/><br/>
-            <b class="b">Objective</b><br/>
+            <b class="b">Objective:</b><br/>
             There is no design without discipline; there is no discipline without
             intelligence...
             There is no doubt that creativity is the most important human resource of
@@ -203,96 +216,104 @@ data = [
             innovations, you will be rewarded, if you have the element, an ability to
             view the world from a wider perspective and envisage that which never
             was...<br/><br/>
-            <b class="b">Registration</b><br/>
-            1. The registration fee is Rs. 100 per participant, who will be allowed
+            <b class="b">Registration:</b><br/>
+            <ol>
+            <li>The registration fee is Rs. 100 per participant, who will be allowed
             to submit 4 photographs. However, per additional 2 photographs
             submitted an excess charge of Rs. 15 will be levied. However for
             BPPIMT students, registration fee is Rs. 50 per participant and
-            maximum of 6 photos will be accepted.<br/><br/>
-            2. The participants must bring their photographs (soft copy) and their
+            maximum of 6 photos will be accepted.</li>
+            <li>The participants must bring their photographs (soft copy) and their
             required data in a CD/Pen drive and might be asked to show during
-            the fest.<br/><br/>
-            3. Every participant must produce his/her college Identity Card during
-            registration or whenever asked for.<br/><br/>
-            4. Mode of payment will be e-mailed to the participant after we
+            the fest.</li>
+            <li>Every participant must produce his/her college Identity Card during
+            registration or whenever asked for.</li>
+            <li>Mode of payment will be e-mailed to the participant after we
             receive the mail from the participant and a time will be given for
-            them to submit the requisite money.<br/><br/>
-            <b class="b">Event Co-ordinators</b><br/><br/>
+            them to submit the requisite money.</li>
+            </ol>
+            <b class="b">Contact Person:</b><br/>
             &#9724; Nibedita Saha: 8240579258
             `,
             "rules" : `<b class="b">Qualification Rules</b><br/>
-            1. Only individuals can participate. No group or team formation is
-            allowed.<br/><br/>
-            2. We have FOUR basic genres for the theme: &quot;Emotion of the life&quot;<br/><br/>
-            3. The participant can submit photographs for any/all of the four
-            genres.<br/>
-            &emsp; 1. Conceptual or Macro<br/>
-            &emsp; 2. Portraits and Expression<br/>
-            &emsp; 3. Nature or Landscape<br/>
-            &emsp; 4. Street Photography or action<br/>
-            b. All individual is allowed to submit a maximum of 6 photos with a
-            maximum of two per genres.<br/><br/>
-            c. The photographs should be original and unedited. Editing can be
+            <ol>
+            <li>Only individuals can participate. No group or team formation is
+            allowed.</li>
+            <li>We have FOUR basic genres for the theme: &quot;Emotion of the life&quot;</li>
+            <li>The participant can submit photographs for any/all of the four
+            genres.
+                <ul>
+                    <li>Conceptual or Macro</li>
+                    <li>Portraits and Expression</li>
+                    <li>Nature or Landscape</li>
+                    <li>Street Photography or action</li>
+                </ul>
+            </li>
+            <li>All individual is allowed to submit a maximum of 6 photos with a
+            maximum of two per genres.</li>
+            <li>The photographs should be original and unedited. Editing can be
             done only to improve the contrast, colour, brightness to bring the
             originality of the situation. No addition or removals of objects or
             any other editing procedures are allowed. Photoshop editing is
-            strictly forbidden.<br/><br/>
-            d. Participants will be disqualified if the above parameters are not
-            obeyed.<br/><br/>
-            e. Watermarks and names on the photos are not allowed.<br/><br/>
-            f. The participants must abide by the specifications given below
-            otherwise that would lead to negative marking.<br/><br/>
-            g. The photos must be ATLEAST 5 Mega-Pixel and MAXIMUM 15 MB in
-            size.<br/><br/>
-            h. The format must be simple JPEG or JPG file. No other file formats
-            will be accepted.<br/><br/>
-            i. During submission, the participant must follow these simple steps:-
-            1. The file name of the photos should be name_collegename_genre_serial no. (For e.g. if the name is Puja Vasa and the college is BPPIMT and the genre is PORTRAIT, the
-            respective file name should be PujaVasa_BPPIMT_Portrait_1)<br/>
-            2. In a separate notepad file, he/she must provide the following
-            for every photo:-<br/>
-            1. Title to the photograph<br/>
-            2. File name<br/>
-            3. Location of shoot (LOCATION OF SHOOT MUST BE
-            WITHIN WEST BENGAL)<br/>
-            4. Camera make &amp; model, Lens, Aperture, Shutter speed
-            and ISO<br/>
-            b. In the same note pad, Personal details should include:
-            name, email-id and Mobile number to contact, in case
-            of you are a winner!!<br/>
-            
-            b. Participate is required to provide a scanned picture of the college
-            Identity Card through the mail along with their submission in the
-            same mail.<br/><br/>
-            c. Submission has to be mailed to the email address
-            participation.techstorm12@gmail.com latest by 25th September,
-            2012 within 5pm. Entries after this date will not be accepted.<br/><br/>
-            d. The subject of the mail should be 35mm LIVE else the mails will
-            not be accepted.`,
+            strictly forbidden.</li>
+            <li>Participants will be disqualified if the above parameters are not
+            obeyed.</li>
+            <li>Watermarks and names on the photos are not allowed.</li>
+            <li>The participants must abide by the specifications given below
+            otherwise that would lead to negative marking.</li>
+            <li>The photos must be ATLEAST 5 Mega-Pixel and MAXIMUM 15 MB in
+            size.</li>
+            <li>The format must be simple JPEG or JPG file. No other file formats
+            will be accepted.</li>
+            <li>During submission, the participant must follow these simple steps:-
+                <ul>
+                    <li>The file name of the photos should be name_collegename_genre_serial no. (For e.g. if the name is Puja Vasa and the college is BPPIMT and the genre is PORTRAIT, the respective file name should be PujaVasa_BPPIMT_Portrait_1)</li>
+                    <li>In a separate notepad file, he/she must provide the following for every photo:-
+                        <ul>
+                            <li>Title to the photograph</li>
+                            <li>File name</li>
+                            <li>Location of shoot (LOCATION OF SHOOT MUST BE WITHIN WEST BENGAL)</li>
+                            <li>Camera make &amp; model, Lens, Aperture, Shutter speed and ISO</li>
+                        </ul>
+                    <li>In the same note pad, Personal details should include: name, email-id and Mobile number to contact, in case of you are a winner!!</li>
+                    <li>Participants is required to provide a scanned picture of the college Identity Card through the mail along with their submission in the same mail.</li>
+                    <li>Submission has to be mailed to the email address: participation.techstorm12@gmail.com latest by 25th September, 2012 within 5pm. Entries after this date will not be accepted.</li>
+                    <li>The subject of the mail should be 35mm LIVE else the mails will not be accepted.</li>
+                </ul>
+            </li>
+            </ol>`,
             "result": "Not yet out"
         },
         "PASSIONWITHREELS": {
-            "description": `Filmmaking involves a number of discrete stages including an initial story, idea, or commission, through screenwriting, casting, shooting, sound recording and pre-production, editing, and screening the finished product before an audience that may result in a film release and exhibition. Filmmaking takes place in many places around the world in a range of economic, social, and political contexts, and using a variety of technologies and cinematic techniques.Filmmaking is not only an art but is also a perfect portrayal of the ever-changing life & rapid scientific & technological growth of mankind. Now, if you are passionate about it and have a team that has the potential to make a movie, then step up, participate in this wonderful event & show us your passion with reels!!!
-            <br/><br/>&#9724;Abhishek Bharti(CSE): 7278456054
+            "description": `<b class="b">Event Description:</b><br/>
+            Filmmaking involves a number of discrete stages including an initial story, idea, or commission, through screenwriting, casting, shooting, sound recording and pre-production, editing, and screening the finished product before an audience that may result in a film release and exhibition. Filmmaking takes place in many places around the world in a range of economic, social, and political contexts, and using a variety of technologies and cinematic techniques.Filmmaking is not only an art but is also a perfect portrayal of the ever-changing life & rapid scientific & technological growth of mankind. Now, if you are passionate about it and have a team that has the potential to make a movie, then step up, participate in this wonderful event & show us your passion with reels!!!<br/><br/>
+            <b class="b">Registration fees:</b><br/>
+            Registration Fees for College Students: ₹<br/>
+            and other Students: ₹<br/><br/>
+            <b class="b">Contact Person:</b><br/>
+            &#9724; Abhishek Bharti(CSE):7278456054
             `,
-            "rules" : `1. Must be a short film with a story, runtime of film should not exceed 11 minutes(Including the beginning and end credits).  Participants must ensure that the titles and credits displayed do not last for more than 1 minute. Films exceeding this time limit are likely to be rejected.<br/><br/>
-            2. Political biasness, Religional biasness, Pornographic content will not be entertained and would lead to direct disqualification. AVOID EXCESSIVE VIOLENCE.<br/><br/> 
-            3. Movies should be in 720p(HD) minimum. FORMAT: The films may be shot in MPEG4 or AVI format. The recommended ratios are: 16:9 / 16:9 Full Height Anamorphic – in DV / HDV.<br/><br/>
-            4. Films may be in any language or have no dialogue at all. Films in Language other than English should carry subtitles in English.<br/><br/>
-            5. Due credits must be given to the cast and the crew in the film though the final prize would go to the team.<br/><br/>
-            6. There is no particular theme for the short film.<br/><br/>
-            7. Films once entered cannot be withdrawn.<br/><br/>
-            8. The short film must be original(should not be copied from other sources) and no watermark of any kind should be on the film.<br/><br/>
-            9.  ONLY Short Films should be submitted NO DOCUMENTARIES, ANIMATIONS OR EXPERIMENTAL ART FORMS.<br/><br/> 
-            10. Submission of video should be done through CD, DVD or Pen drive.<br/><br/>
-            11. Multiple entries of same team is not allowed.<br/><br/>
-            12. Movies that were submitted last year in Techstorm would not be accepted.<br/><br/>
-            13. Participants may or may not be from same college but submission of a copy of their college id card is compulsory. All participants must be college students(either UG or PG).<br/><br/>
-            14. Each film should begin with a disclaimer, which should also include the title of the movie and TEAM NAME.<br/><br/>
-            15. The maximum number of team members can be 8 (including the cast) and minimum number of team members can be 1.<br/><br/>
-            16. Judges’ decision will be final and binding.<br/><br/>
-            17. The last date of submitting the short film is 3rd April. (Participant can also email their film to the co-ordinator of the event.)<br/><br/>
-            18. TECHSTORM 2.20 organizers reserve the right to change / modify / alter any rule or its part or event of this competition anytime.`,
+            "rules" : `<b class="b">Rules:</b><br/>
+            <ol>
+            <li> Must be a short film with a story, runtime of film should not exceed 11 minutes(Including the beginning and end credits).  Participants must ensure that the titles and credits displayed do not last for more than 1 minute. Films exceeding this time limit are likely to be rejected.</li>
+            <li> Political biasness, Religional biasness, Pornographic content will not be entertained and would lead to direct disqualification. AVOID EXCESSIVE VIOLENCE.</li> 
+            <li> Movies should be in 720p(HD) minimum. FORMAT: The films may be shot in MPEG4 or AVI format. The recommended ratios are: 16:9 / 16:9 Full Height Anamorphic – in DV / HDV.</li>
+            <li> Films may be in any language or have no dialogue at all. Films in Language other than English should carry subtitles in English.</li>
+            <li> Due credits must be given to the cast and the crew in the film though the final prize would go to the team.</li>
+            <li> There is no particular theme for the short film.</li>
+            <li> Films once entered cannot be withdrawn.</li>
+            <li> The short film must be original(should not be copied from other sources) and no watermark of any kind should be on the film.</li>
+            <li>  ONLY Short Films should be submitted NO DOCUMENTARIES, ANIMATIONS OR EXPERIMENTAL ART FORMS.</li> 
+            <li> Submission of video should be done through CD, DVD or Pen drive.</li>
+            <li> Multiple entries of same team is not allowed.</li>
+            <li> Movies that were submitted last year in Techstorm would not be accepted.</li>
+            <li> Participants may or may not be from same college but submission of a copy of their college id card is compulsory. All participants must be college students(either UG or PG).</li>
+            <li> Each film should begin with a disclaimer, which should also include the title of the movie and TEAM NAME.</li>
+            <li> The maximum number of team members can be 8 (including the cast) and minimum number of team members can be 1.</li>
+            <li> Judges’ decision will be final and binding.</li>
+            <li> The last date of submitting the short film is 3rd April. (Participant can also email their film to the co-ordinator of the event.)</li>
+            <li> TECHSTORM 2.20 organizers reserve the right to change / modify / alter any rule or its part or event of this competition anytime.</li>
+            </ol>`,
             "result": "Not yet out"
         },
         "FANTAC": {
@@ -301,6 +322,10 @@ data = [
             <b class="b">Event Description</b>:<br/>
 
             A great way to improve your skills when learning to code is by solving coding challenge. So, here is a chance to prove yourself that you are not only a programmer but an elegant and efficient coder. Plunge in to unravel the deep Coding secrets and swim up to the shore with the best algorithm. The three upcoming rounds will give your mind a real twist and turn so be ready to decode the trail.<br/><br/>
+            <b class="b">Registration fees:</b><br/>
+            Registration Fees for College Students: ₹60<br/>
+            and other Students: ₹80<br/><br/>
+            <b class="b">Contact Person:</b><br/>
             &#9724; Muskan verma(CSE): 9883267071<br/>
             &#9724; Ayush Raj(IT): 6290754213
             `,
@@ -322,8 +347,8 @@ data = [
             <li>No paper carried by the participants will be allowed
             during the whole contest.</li>
             </ol>
-            <b class="b">Rules and Regulations</b><br/>
-            The event will be held in three rounds.<br/>
+            <b class="b">Rules and Regulations:</b><br/>
+            The event will be held in three rounds.<br/><br/>
             <b class="b">FIRST ROUND</b><br/>
             <b class="b">Name:</b> D-CODE<br/>
             <ol>
@@ -354,16 +379,18 @@ data = [
             "result": "Not yet out"
         },
         "TECHNOMANIA": {
-            "description": `The Competition encourages students to extend their knowledge to a professional level in electrical and
+            "description": `<b class="b">Event Description:</b><br/>
+            The Competition encourages students to extend their knowledge to a professional level in electrical and
             electronics circuit design. It also encourages them to nurture their creativity and innovation on applied
             engineering concepts.<br/><br/>
-            <b class="b">Registration Fees</b><br/>
-            •BPPIMT Teams: ₹100/-<br/>
-            •Other Teams: ₹150/-<br/><br/>
+            <b class="b">Registration fees:</b><br/>
+            Participation Fees for College Students: ₹​​100<br/>
+            and other Students: ₹​​150<br/><br/>
+            <b class="b">Contact Person:</b><br/>
             &#9724; Priyanka Mehta(ECE): 8910016185<br/>
             &#9724; Sanah Asgar(CSE): 9831071442
             `,
-            "rules" : `
+            "rules" : `<b class="b">Rules:</b><br/>
             <ol>
             <li>It should consist of hardware model on science and technology along with a powerpoint presentation.</li>
             <li>The members of a single team should be from the same institute.</li>
@@ -379,57 +406,46 @@ data = [
         "APPMANIA": {
             "description": `
             <b class="b">Event Description:</b><br/>
-            BP PDDAR INSTITUTE OF MANAGEMENT AND TECHNOLOGY presents
+            B.P. PODDAR INSTITUTE OF MANAGEMENT AND TECHNOLOGY presents
             APPMANIA in the awaited TECHSTORM 2.20. Calling all the
             young innovators with a knack to hack together the next disruptive
             Android, Web, iOS, Windows applications to take the ever-growing
             market of apps by storm. Register and present your application.
-            This is your chance to make a dent in the universe. The
-            
-            APPMANIA event will be held at our college on DATE. Interested
-            teams (Minimum 1 Maximum 2 Members) can submit their names
-            and complete the registration. Our registration portal on our
-            
-            App/Website is OPEN!!!<br/>
-            
-            PLEASE DO LIKE APPMAINA IN TECHSTORM 2.20 OFFICIAL FB PAGE<br/><br/>
+            This is your chance to make a dent in the universe. Interested
+            teams (Minimum 1 Maximum 2 members) can submit their names
+            and complete the registration.<br/><br/>
+            <b class="b">Registration fees:</b><br/>
+            Participation Fees for College Students: ₹​​100<br/>
+            and other Students: ₹​​150<br/><br/>
 
-            Team Size: 2<br/><br/>
-
-            ● Participation Fees for College Students: ₹​​100<br/>
-            
-            ● and other Students: ₹​​150<br/><br/>
             <b class="b">Contact Person:</b><br/>
-            ● Punit khandelwal(CSE):9804747631
+            &#9724; Punit khandelwal(CSE):9804747631
             `,
-            "rules" : `
-            ❏ ​A ​maximum of 2 members ​are allowed in a single team.One single participant
-            
-            can also represent the team.<br/><br/>
-            ❏ ​Final submission of the app along with the ppt is on the day of the event.<br/><br/> ​❏
-            Participants can add any additional features along with the specified features in the
-            problem statement.<br/><br/>
-            ​❏ ​Maximum Time Limit ​for ​PowerPoint Presentation and App Demonstration
-            is
-            10 minutes.​The Participating team ​may be penalised ​(score penalty) if time
-            taken exceeds further.<br/><br/>
-            ❏ ​PPT should ​NOT ​contain more than 10 slides and must contain the following:
-            ➢ ​Technology Stack Used ​➢ ​Dependencies of the App Idea(if any) ​➢ ​Use-Case
-            Diagram/Model <br/><br/>​❏ ​We advise all participating teams ​to carry their own laptops for
-            their presentation
-            and use their own Internet connection​, otherwise they shall need to fill in a
-            regulatory declaration form as per IT rules &amp; regulations of the institute.<br/><br/>
-            ​❏ ​All team members ​must carry a government ID proof (VoterID Card, Aadhar Card,
-            PAN card, Passport) and a college IDcard ​during their participation at the event.`,
+            "rules" : `<b class="b">Rules:</b><br/>
+            <ol>
+            <li>A maximum of 2 members are allowed in a single team.One single participant can also represent the team.</li>
+            <li>Final submission of the app along with the ppt is on the day of the event.</li>
+            <li>Participants can add any additional features along with the specified features in the problem statement.</li>
+            <li>Maximum Time Limit for PowerPoint Presentation and App Demonstration is 10 minutes. The Participating team may be penalised (score penalty) if time taken exceeds further.</li>
+            <li>PPT should NOT contain more than 10 slides and must contain the following: ➢ Technology Stack Used ➢ Dependencies of the App Idea(if any) ➢ Use-Case Diagram/Model</li>
+            <li>We advise all participating teams to carry their own laptops for their presentation and use their own Internet connection, otherwise they shall need to fill in a regulatory declaration form as per IT rules &amp; regulations of the institute.</li>
+            <li>All team members must carry a government ID proof (VoterID Card, Aadhar Card, PAN card, Passport) and a college IDcard during their participation at the event.</li>
+            </ol>
+            `,
             "result": "Not yet out"
         },
         "OMEGATRIX": {
-            "description": `Omegatrix is an integral part of recreational mathematics. This event is open to any student
+            "description": `<b class="b">Event Description:</b><br/>
+            Omegatrix is an integral part of recreational mathematics. This event is open to any student
             with an interest in mathematics. We judge you by logging into deep well of mathematics and
             test your grey matter and mental ability through many other mind blogging and
             brainstorming question puzzles. This event is divided into two parts – prelims and final
             round. The finalists will be selected on the basis of their logical reasoning, time management
             and analytical skills in the final.<br/><br/>
+            <b class="b">Registration fees:</b><br/>
+            Registration Fees for College Students: ₹<br/>
+            and other Students: ₹<br/><br/>
+            <b class="b">Contact Person:</b><br/>
             &#9724; Sreoysi Saha(IT): 8777056914<br/>
             &#9724; Bidisha Maji(CSE): 6291571746
             `,
@@ -495,9 +511,7 @@ data = [
         },
         "ROPICKER": {
             "description": `<b class="b">Event Name:</b> RO -PICKER<br/><br/>
-            • Participation Fees for College Students: ₹100<br/>
-            • and other Students: ₹120<br/><br/>
-        Team Size: 5 person(max)<br/><br/>
+            <b class="b">Team Size: </b>5 person(max)<br/><br/>
         
         <b class="b">Event Description:</b><br/>
         <ol>
@@ -505,6 +519,10 @@ data = [
             <li>This is a time based pick and place event so fastest and the most efficient robots will win.</li>
             <li>All the rounds will be solo with increasing arena complexities (can be box number or hurdles) towards the finals.</li>
         </ol>
+        <b class="b">Registration fees:</b><br/>
+        Participation Fees for College Students: ₹100<br/>
+        and other Students: ₹120<br/><br/>
+        <b class="b">Contact Person:</b><br/>
             &#9724;Sayani Debnath(ECE): 7003014085<br/>
             &#9724;Sourasish Banerjee(EE): 9830762575
             `,
@@ -555,18 +573,22 @@ data = [
             "result": "Not yet out"
         },
         "ROCARROM": {
-            "description": `Think you are a carrom champ, then ro-carrom is the crown jewel platform for
+            "description": `<b class="b">Event Description:</b><br/>
+            Think you are a carrom champ, then ro-carrom is the crown jewel platform for
             you. Here your mind and finger coordination is not on the board but on the
             control of your buddy present on the board. Ro-carrom is the best platform to
             show that your team and your bot are connected through the same string forming
             a beautiful ornament from your lustrous bonding, understanding and awareness.
             Pocket carrom-men, overcome obstacles, defeat your opponent and show
             everyone that you and your bot are bestfriends.<br/><br/>
-            <b class="b">FEE:</b> ₹100 for bppimt  ₹150 for non bppimt<br/><br/>
+            <b class="b">Registration fees:</b><br/>
+            Participation Fees for College Students: ₹100<br/>
+        and other Students: ₹150<br/><br/>
+            <b class="b">Contact Person:</b><br/>
             &#9724; Anubhab Majumdar(ECE): 8697238442<br/>
             &#9724; Abhishek Sarkar(EE): 9852169210
             `,
-            "rules" : `OVERVIEW<br/>
+            "rules" : `<b class="b">OVERVIEW</b><br/>
             <b class="b">Level 1 (Prelims):</b> Game will start with a single bot. Team pocketing all the
             carrom men at a least time will be qualified for NEXT LEVEL.<br/><br/>
             <b class="b">Level 2(QF &amp; SF):</b> Game will start with 2 bots. Team pocketing all the carrom
@@ -625,20 +647,23 @@ data = [
             "result": "Not yet out"
         },
         "ROWINGS": {
-            "description": `<b class="b">Event Description:</b> <br/>Test your imagination with your
+            "description": `<b class="b">Event Description:</b><br/>Test your imagination with your
             measurable skills that will take you to the winning
             paramount of the event robo-spring. Race your drone
             against time and across obstacles course from start to
             finish at full throttle. The whole event is divided into parts
             with hurdles at each stage. So buckle your skills and test
             your control.<br/><br/>
-            <b class="b">OBJECTIVE</b><br/>
+            <b class="b">OBJECTIVE:</b><br/>
             Each team can have a maximum of five members. Each
             team have to compete against time along with obstacles.
             The selection of the teams will depend upon the time for
             the completion of the track and the scores achieved by
             each team.<br/><br/>
-            <b class="b">Contact person</b><br/>
+            <b class="b">Registration fees:</b><br/>
+            Registration Fees for College Students: ₹<br/>
+            and other Students: ₹<br/><br/>
+            <b class="b">Contact person:</b><br/>
             &#9724; Ankita Das(ECE): 9163196780
             `,
             "rules" : `<b class="b">GAME PLAY RULES:</b><br/>
@@ -720,6 +745,9 @@ data = [
             enter. Two cuboidal ditches will be present inside the
             arena at possible edges. Preliminary rounds will be of
             1200 points and later stages will be of more points.<br/><br/>
+            <b class="b">Registration fees:</b><br/>
+            Participation Fees for College Students: ₹<br/>
+        and other Students: ₹<br/><br/>
             <b class="b">Contact Person:</b><br/>
             &#9724; Soumyadyuti Bagchi(ECE) - 7044075625<br/>
             &#9724; Barun Saha (EE) - 9733838669<br/>
@@ -789,7 +817,7 @@ data = [
             <li> 100 points will be deducted for each extra kg</li>
             <li>20 points will be deducted for each extra cm.</li></ul>
             </ol>
-            <b class="b">TEAM SPECIFICATIONS</b><br/>
+            <b class="b">TEAM SPECIFICATIONS:</b><br/>
             <ol>
             <li>Each team can have a maximum of 5 members. No
             same member can be present in two teams.</li>
@@ -820,11 +848,13 @@ data = [
             "result": "Not yet out"
         },
         "RONAVIGATOR": {
-            "description": `Ro-Navigator is basically an event which is similar to Line follower .Where the bot has to identify and follow a black track and complete the arena.The bot must be according to the specifications provided in the rules section and the teams must bring their respective college IDs. There would be two rounds prelims and the final round . If the teams qualify the prelims they would be called up for the second/final  round.<br/><br/>
+            "description": `<b class="b">Event Description:</b><br/>
+            Ro-Navigator is basically an event which is similar to Line follower .Where the bot has to identify and follow a black track and complete the arena.The bot must be according to the specifications provided in the rules section and the teams must bring their respective college IDs. There would be two rounds prelims and the final round . If the teams qualify the prelims they would be called up for the second/final  round.<br/><br/>
 
             <b class="b">Registration fees:</b><br/>
-            For BPPIMTIANS :RS 100<br/> 
-            For Others :RS 130<br/><br/>
+            Participation Fees for College Students: ₹100<br/>
+        and other Students: ₹130<br/><br/>
+            <b class="b">Contact Person:</b><br/>
             &#9724;Abhishek Gupta(ECE): 8583961560<br/>
             &#9724;Madhurima bose(EE): 9051733104
             `,
@@ -846,7 +876,7 @@ data = [
             <li>The participants will be provided with a 220 V, 50 Hz single phase power supply.
             <li>The bot must weigh upto a maximum of 4 kg. Heavier bot will be disqualified.</li>
             <li>The bot should be constructed only using IR sensor not IC engine or any hard coding or else the team will lead in disqualification.</li>
-            <li>The bot must be designed by the team itself. It should not be ready-made.<br/><br/>
+            <li>The bot must be designed by the team itself. It should not be ready-made.</li>
             <li>Damage to the arena will lead to disqualification.</li>
             </ol>
         
@@ -863,7 +893,8 @@ data = [
             "result": "Not yet out"
         },
         "ROTERRANCE": {
-            "description": `The event consists of an arena which is a pathway filled with obstacles. The bot
+            "description": `<b class="b">Event Description:</b><br/>
+            The event consists of an arena which is a pathway filled with obstacles. The bot
             must be able to follow the path to overcome every obstacles coming its way,
             be it sand, water, gravel or any mechanical blockage. Points will be awarded on
             successfully overcoming the obstacles, otherwise negative points will be
@@ -871,7 +902,7 @@ data = [
             <b class="b">Registration Fees:</b><br/>
             For BPPIMT students: Rs.120/team<br/>
             For Inter-College students: Rs.150/team<br/><br/>
-            <b class="b">Help Desk:</b><br/><br/>
+            <b class="b">Contact Person:</b><br/>
             &#9724;Swastik Saha(ECE): 9123803670<br/>
             &#9724;Aindrila Sammaddar(EE): 9163664155
             `,
@@ -922,9 +953,14 @@ data = [
             "result": "Not yet out"
         },
         "ROSOCCER": {
-            "description": `Explore the thrill of soccer, the challenge of team co-ordination, your skills of control over the bot & your limit to resist the pressure and deliver at the same time. In this event, teams have to try to score goals against their opponents & save their goal at the same time. Extend your imagination in gameplay and tactics. If you think you are up to the mark Ro-Soccer is the platform for robotics enthusiasts like you.<br/><br/>
+            "description": `<b class="b">Event Description:</b><br/>
+            Explore the thrill of soccer, the challenge of team co-ordination, your skills of control over the bot & your limit to resist the pressure and deliver at the same time. In this event, teams have to try to score goals against their opponents & save their goal at the same time. Extend your imagination in gameplay and tactics. If you think you are up to the mark Ro-Soccer is the platform for robotics enthusiasts like you.<br/><br/>
             <b class="b">Objective:</b><br/>
             EACH TEAM WOULD HAVE TWO MANUAL BOTS, ONE AS DEFENDER AND THE OTHER AS STRIKER. EACH TEAM WILL COMPETE WITH ANOTHER TEAM ALSO HAVING TWO BOTS. THE FIRST ROUND WOULD BE THE PRELIMS & AT THE END OF THE PRELIMS, DEPENDING UPON THE SCORE, TEAMS WILL QUALIFY TO THE NEXT ROUND.<br/><br/>
+            <b class="b">Registration fees:</b><br/>
+            Registration Fees for College Students: ₹120<br/>
+            and other Students: ₹150<br/><br/>
+            <b class="b">Contact Person:</b><br/>
             &#9724; Anindita Chatterjee(ECE): 8777368399<br/>
             &#9724; Rittick Ghosh(EE): 8420215973
             `,
@@ -992,7 +1028,7 @@ data = [
             provides a platform to exhibit and share their knowledge and
             passion for science through interaction with peers and
             audiences.<br/><br/>
-            <b class="b">Objective</b><br/>
+            <b class="b">Objective:</b><br/>
             Science always reveals a new truth, a new discovery, an
             unknown reality. As the necessities change and so the
             inventions and development. It keeps growing and can never
@@ -1004,13 +1040,14 @@ data = [
             creatively find solutions to the challenges. Students enjoy
             learning through such exhibitions and feel a sense of
             belonging as they make the models with their own hands.<br/><br/>
-            <b class="b">Participation</b><br/>
+            <b class="b">Participation:</b><br/>
             Soft copy of the report should be submitted via email to the following e-mail
-            address sensanjuktasen@gmail.com,prb000047@gmail.com with in April 02,
+            address sensanjuktasen@gmail.com,prb000047@gmail.com within April 02,
             2020.<br/><br/>
             <b class="b">Rewards:</b><br/>
             Three teams will be winner in each category. School and students both will be
             recognized with exciting prizes.<br/><br/>
+            <b class="b">Contact Person:</b><br/>
             &#9724; Sanjukta Sen(CSE): 83359 57344<br/>
             &#9724; Arka Banerjee(CSE): 80170 77827
             `,
