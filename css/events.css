@@ -2651,3 +2651,9 @@
 			}
 
 		}
+
+		.b{
+			font-weight: bold !important;
+			color: black !important;
+			text-transform: uppercase;
+		}
