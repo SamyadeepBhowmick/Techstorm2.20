@@ -714,7 +714,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about p {
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 20px;
   color: #fff;
 }
@@ -1421,9 +1421,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   margin: 0 4px;
   font-size: 18px;
-  font-weight: 300px;
-  line-height: 1;
+  font-weight: 300;
+  border: 1px solid var(--deepblue);
   background-color: var(--lightblue);
+  line-height: 1;
   padding-top: 6px;
   padding-right: 1px;
   border-radius: 50px;
@@ -1440,8 +1441,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: var(--lightblue);
+  /* background: var(--lightblue); */
   color: #fff;
+  
 }
 
 .portfolio .portfolio-wrap .portfolio-info {

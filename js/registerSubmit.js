@@ -6,7 +6,7 @@ if(localStorage.getItem("event") && localStorage.getItem("subEvent")){
     btn.addEventListener("click", (e)=>{
         e.preventDefault();
         if(validate()){
-            let name = document.getElementById("name").value
+            let name = document.getElementById("Lname").value
             let dept = document.getElementById("dept").value
             let email = document.getElementById("email").value
             let phone = document.getElementById("phone").value
@@ -130,7 +130,7 @@ function checkFields(){
         check.push(false)
     }
     // console.log(fields.length)
-    var letters = /^[A-Za-z]+$/;
+    var letters = /^[A-Z a-z]+$/;
     for(i=0;i<fields.length;i++){
         if(document.getElementById(`${fields[i].id}`).value.match(letters)){
             // console.log(true)

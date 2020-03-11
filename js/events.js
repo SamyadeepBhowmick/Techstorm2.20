@@ -12,8 +12,8 @@ data = [
             Participation Fees for College Students: ₹40<br/> and other
             Students: ₹60<br/><br/>
             <b class="b">Contact Person:</b><br/>
-            &#9724; Partho Malakar(IT):8910508026<br/>
-            &#9724; Abhishek Kumar(CSE):7044383703`,
+            &#9724; Partho Malakar(IT): 8910508026<br/>
+            &#9724; Abhishek Kumar(CSE): 7044383703`,
             "rules" : `<b class="b">Rules:</b><br/>
             <ol><li>The players are not allowed to shoot the ball directly onto the crossbar from a corner kick in order to get a chance for a header when the ball rebounds or score directly from corner.</li>
             
@@ -81,7 +81,7 @@ data = [
             Registration Fees for College Students: ₹30<br/>
             and other Students: ₹50<br/><br/>
             <b class="b">Contact Person:</b></br>
-            &#9724; Harsh Kumar Singh(IT):8240905009
+            &#9724; Harsh Kumar Singh(IT): 8240905009
             `,
             "rules" : `<b class="b">Rules:</b>
                 <ol><li>Townhall 7 to Townhall 9 only.</li>
@@ -102,7 +102,7 @@ data = [
             Participation Fees for College Students: ₹<br/> and other
             Students: ₹<br/><br/>
             <b class="b">Contact Person:</b><br/>
-            &#9724; Vimal Kishore(CSE):8083336565
+            &#9724; Vimal Kishore(CSE): 8083336565
             `,
             "rules" : `
             <b class="b">General Competition Method:</b> 4 players<br/><br/>
@@ -163,8 +163,8 @@ data = [
             Registration Fees for College Students: ₹<br/>
             and other Students: ₹<br/><br/>
             <b class="b">Contact Person:</b><br/>
-            &#9724; Sinjon Nath(ECE):8910964359<br/>
-            &#9724; Dibyotama Chatterjee(ECE):8240259213
+            &#9724; Sinjon Nath(ECE): 8910964359<br/>
+            &#9724; Dibyotama Chatterjee(ECE): 8240259213
             `,
             "rules" : `
             <b class="b">PRELIMS-I:</b><br/>
@@ -291,7 +291,7 @@ data = [
             Registration Fees for College Students: ₹<br/>
             and other Students: ₹<br/><br/>
             <b class="b">Contact Person:</b><br/>
-            &#9724; Abhishek Bharti(CSE):7278456054
+            &#9724; Abhishek Bharti(CSE): 7278456054
             `,
             "rules" : `<b class="b">Rules:</b><br/>
             <ol>
@@ -385,7 +385,7 @@ data = [
             engineering concepts.<br/><br/>
             <b class="b">Registration fees:</b><br/>
             Participation Fees for College Students: ₹​​100<br/>
-            and other Students: ₹​​150<br/><br/>
+            and other Students: ₹​​120<br/><br/>
             <b class="b">Contact Person:</b><br/>
             &#9724; Priyanka Mehta(ECE): 8910016185<br/>
             &#9724; Sanah Asgar(CSE): 9831071442
@@ -419,7 +419,7 @@ data = [
             and other Students: ₹​​150<br/><br/>
 
             <b class="b">Contact Person:</b><br/>
-            &#9724; Punit khandelwal(CSE):9804747631
+            &#9724; Punit khandelwal(CSE): 9804747631
             `,
             "rules" : `<b class="b">Rules:</b><br/>
             <ol>
@@ -443,8 +443,8 @@ data = [
             round. The finalists will be selected on the basis of their logical reasoning, time management
             and analytical skills in the final.<br/><br/>
             <b class="b">Registration fees:</b><br/>
-            Registration Fees for College Students: ₹<br/>
-            and other Students: ₹<br/><br/>
+            Registration Fees for College Students: ₹20<br/>
+            and other Students: ₹40<br/><br/>
             <b class="b">Contact Person:</b><br/>
             &#9724; Sreoysi Saha(IT): 8777056914<br/>
             &#9724; Bidisha Maji(CSE): 6291571746
@@ -661,8 +661,8 @@ data = [
             the completion of the track and the scores achieved by
             each team.<br/><br/>
             <b class="b">Registration fees:</b><br/>
-            Registration Fees for College Students: ₹<br/>
-            and other Students: ₹<br/><br/>
+            Registration Fees for College Students: ₹150<br/>
+            and other Students: ₹180<br/><br/>
             <b class="b">Contact person:</b><br/>
             &#9724; Ankita Das(ECE): 9163196780
             `,
@@ -749,8 +749,8 @@ data = [
             Participation Fees for College Students: ₹<br/>
         and other Students: ₹<br/><br/>
             <b class="b">Contact Person:</b><br/>
-            &#9724; Soumyadyuti Bagchi(ECE) - 7044075625<br/>
-            &#9724; Barun Saha (EE) - 9733838669<br/>
+            &#9724; Soumyadyuti Bagchi(ECE): 7044075625<br/>
+            &#9724; Barun Saha (EE): 9733838669<br/>
             `,
             "rules" : `<b class="b">BOT SPECIFICATION:</b><br/>
             <ol>
@@ -900,8 +900,8 @@ data = [
             successfully overcoming the obstacles, otherwise negative points will be
             awarded.<br/><br/>
             <b class="b">Registration Fees:</b><br/>
-            For BPPIMT students: Rs.120/team<br/>
-            For Inter-College students: Rs.150/team<br/><br/>
+            For BPPIMT students: ₹120/team<br/>
+            For Inter-College students: ₹150/team<br/><br/>
             <b class="b">Contact Person:</b><br/>
             &#9724;Swastik Saha(ECE): 9123803670<br/>
             &#9724;Aindrila Sammaddar(EE): 9163664155

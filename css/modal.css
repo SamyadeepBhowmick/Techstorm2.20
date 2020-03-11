@@ -303,6 +303,7 @@ h2{
     }
     .modal-body p{
         line-height: 2rem;
+        text-align: left;
     }
 
 }
