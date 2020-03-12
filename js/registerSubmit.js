@@ -1,4 +1,5 @@
 let qrcode
+let teamname = ""
 if(localStorage.getItem("event") && localStorage.getItem("subEvent")){
     let database = firebase.database();
     let btn = document.getElementById("btn")
@@ -11,10 +12,8 @@ if(localStorage.getItem("event") && localStorage.getItem("subEvent")){
             let email = document.getElementById("email").value
             let phone = document.getElementById("phone").value
             let college = document.getElementById("college").value
-            let teamName = ""
             let event = localStorage.getItem("event")
             let subEvent = localStorage.getItem("subEvent")
-            
 
             let fields = document.querySelectorAll(".extra")
             for(let i=0;i<fields.length/2;i++){
@@ -23,11 +22,11 @@ if(localStorage.getItem("event") && localStorage.getItem("subEvent")){
                         "department": document.getElementById(`dept${i+2}`).value
                 })
             }
-            // console.log(name, email, dept, phone, event, subEvent, teamName, members)
+            console.log(name, email, dept, phone, event, subEvent, teamname, members)
             document.querySelector(".loader-1").style.display="block"
             let date = new Date()
             database.ref(`${event}/${subEvent}/${phone}`).set({
-                a_teamName: teamName,
+                a_teamName: teamname,
                 b_leaderName: name, 
                 c_college: college, 
                 d_department: dept,
@@ -42,6 +41,7 @@ if(localStorage.getItem("event") && localStorage.getItem("subEvent")){
                     document.getElementById("snackbar").innerHTML="Some error occurred"
                     myFunction()
                 }else{
+                    document.querySelector(".loader-1").style.display="none"
                     document.getElementById("snackbar").innerHTML="You are registered for "+subEvent
                     myFunction()
                     qrcode = new QRCode(document.querySelector(".qr"), {
@@ -87,16 +87,24 @@ function validate(){
 
 function validateTeamName(){
     let name = document.getElementById(`teamName`)
-    if (name.value!==""){
-        return true;
+    if(name===null){
+        return true
     }
     else{
-        document.querySelector(".error.teamName").style.display = "block"
-        setTimeout(()=> {
-            document.querySelector(".error.teamName").style.display = "none"
-        }, 5000)
-        check = false
+        if (name.value!==""){
+            teamname = document.getElementById("teamName").value
+            console.log(teamname)
+            return true;
+        }
+        else{
+            document.querySelector(".error.teamName").style.display = "block"
+            setTimeout(()=> {
+                document.querySelector(".error.teamName").style.display = "none"
+            }, 5000)
+            check = false
+        }
     }
+    
 }
         
 

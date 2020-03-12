@@ -2657,3 +2657,7 @@
 			color: black !important;
 			text-transform: uppercase;
 		}
+
+.disabled{
+	display: none;
+}

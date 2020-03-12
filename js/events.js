@@ -99,8 +99,8 @@ data = [
             <b class="b">Event Description:</b><br/>
             Take the wheel and drive your car to the chequered flag cause this game is all about speed. The faster you are, the better your chances.<br/><br/>
             <b class="b">Registration fees:</b><br/>
-            Participation Fees for College Students: ₹<br/> and other
-            Students: ₹<br/><br/>
+            Participation Fees for College Students: ₹30<br/> and other
+            Students: ₹50<br/><br/>
             <b class="b">Contact Person:</b><br/>
             &#9724; Vimal Kishore(CSE): 8083336565
             `,
@@ -160,8 +160,8 @@ data = [
             field. The challenge is to protect one&#39;s own pharaoh while maneuvering to &quot;light up&quot; the opposing
             player&#39;s pharaoh.<br/><br/>
             <b class="b">Registration fees:</b><br/>
-            Registration Fees for College Students: ₹<br/>
-            and other Students: ₹<br/><br/>
+            Registration Fees for College Students: ₹30<br/>
+            and other Students: ₹40<br/><br/>
             <b class="b">Contact Person:</b><br/>
             &#9724; Sinjon Nath(ECE): 8910964359<br/>
             &#9724; Dibyotama Chatterjee(ECE): 8240259213
@@ -200,96 +200,16 @@ data = [
             "result": "Not yet out"
         },
         "35MMLIVE": {
-            "description": `<b class="b">Event description:</b><br/>
-            Photography is an art of creating moving or still pictures by recording
-            radiation on a sensitive medium. It is proved to be a beneficial medium
-            for the purpose of capturing momentous moment of life.
-            
-            Pictures speak a thousand words than mere sentence and that is all about
-            &quot;35 mm LIVE&quot;...<br/><br/>
-            <b class="b">Objective:</b><br/>
-            There is no design without discipline; there is no discipline without
-            intelligence...
-            There is no doubt that creativity is the most important human resource of
-            all. Without creativity, there would be no progress and we would be
-            forever repeating the same patterns. techstorm 2.20 is a platform for
-            innovations, you will be rewarded, if you have the element, an ability to
-            view the world from a wider perspective and envisage that which never
-            was...<br/><br/>
-            <b class="b">Registration:</b><br/>
-            <ol>
-            <li>The registration fee is Rs. 100 per participant, who will be allowed
-            to submit 4 photographs. However, per additional 2 photographs
-            submitted an excess charge of Rs. 15 will be levied. However for
-            BPPIMT students, registration fee is Rs. 50 per participant and
-            maximum of 6 photos will be accepted.</li>
-            <li>The participants must bring their photographs (soft copy) and their
-            required data in a CD/Pen drive and might be asked to show during
-            the fest.</li>
-            <li>Every participant must produce his/her college Identity Card during
-            registration or whenever asked for.</li>
-            <li>Mode of payment will be e-mailed to the participant after we
-            receive the mail from the participant and a time will be given for
-            them to submit the requisite money.</li>
-            </ol>
-            <b class="b">Contact Person:</b><br/>
-            &#9724; Nibedita Saha: 8240579258
-            `,
-            "rules" : `<b class="b">Qualification Rules</b><br/>
-            <ol>
-            <li>Only individuals can participate. No group or team formation is
-            allowed.</li>
-            <li>We have FOUR basic genres for the theme: &quot;Emotion of the life&quot;</li>
-            <li>The participant can submit photographs for any/all of the four
-            genres.
-                <ul>
-                    <li>Conceptual or Macro</li>
-                    <li>Portraits and Expression</li>
-                    <li>Nature or Landscape</li>
-                    <li>Street Photography or action</li>
-                </ul>
-            </li>
-            <li>All individual is allowed to submit a maximum of 6 photos with a
-            maximum of two per genres.</li>
-            <li>The photographs should be original and unedited. Editing can be
-            done only to improve the contrast, colour, brightness to bring the
-            originality of the situation. No addition or removals of objects or
-            any other editing procedures are allowed. Photoshop editing is
-            strictly forbidden.</li>
-            <li>Participants will be disqualified if the above parameters are not
-            obeyed.</li>
-            <li>Watermarks and names on the photos are not allowed.</li>
-            <li>The participants must abide by the specifications given below
-            otherwise that would lead to negative marking.</li>
-            <li>The photos must be ATLEAST 5 Mega-Pixel and MAXIMUM 15 MB in
-            size.</li>
-            <li>The format must be simple JPEG or JPG file. No other file formats
-            will be accepted.</li>
-            <li>During submission, the participant must follow these simple steps:-
-                <ul>
-                    <li>The file name of the photos should be name_collegename_genre_serial no. (For e.g. if the name is Puja Vasa and the college is BPPIMT and the genre is PORTRAIT, the respective file name should be PujaVasa_BPPIMT_Portrait_1)</li>
-                    <li>In a separate notepad file, he/she must provide the following for every photo:-
-                        <ul>
-                            <li>Title to the photograph</li>
-                            <li>File name</li>
-                            <li>Location of shoot (LOCATION OF SHOOT MUST BE WITHIN WEST BENGAL)</li>
-                            <li>Camera make &amp; model, Lens, Aperture, Shutter speed and ISO</li>
-                        </ul>
-                    <li>In the same note pad, Personal details should include: name, email-id and Mobile number to contact, in case of you are a winner!!</li>
-                    <li>Participants is required to provide a scanned picture of the college Identity Card through the mail along with their submission in the same mail.</li>
-                    <li>Submission has to be mailed to the email address: participation.techstorm12@gmail.com latest by 25th September, 2012 within 5pm. Entries after this date will not be accepted.</li>
-                    <li>The subject of the mail should be 35mm LIVE else the mails will not be accepted.</li>
-                </ul>
-            </li>
-            </ol>`,
+            "description": `Coming soon`,
+            "rules" : `Coming soon`,
             "result": "Not yet out"
         },
         "PASSIONWITHREELS": {
             "description": `<b class="b">Event Description:</b><br/>
             Filmmaking involves a number of discrete stages including an initial story, idea, or commission, through screenwriting, casting, shooting, sound recording and pre-production, editing, and screening the finished product before an audience that may result in a film release and exhibition. Filmmaking takes place in many places around the world in a range of economic, social, and political contexts, and using a variety of technologies and cinematic techniques.Filmmaking is not only an art but is also a perfect portrayal of the ever-changing life & rapid scientific & technological growth of mankind. Now, if you are passionate about it and have a team that has the potential to make a movie, then step up, participate in this wonderful event & show us your passion with reels!!!<br/><br/>
             <b class="b">Registration fees:</b><br/>
-            Registration Fees for College Students: ₹<br/>
-            and other Students: ₹<br/><br/>
+            Registration Fees for College Students: ₹250<br/>
+            and other Students: ₹300<br/><br/>
             <b class="b">Contact Person:</b><br/>
             &#9724; Abhishek Bharti(CSE): 7278456054
             `,
@@ -385,7 +305,7 @@ data = [
             engineering concepts.<br/><br/>
             <b class="b">Registration fees:</b><br/>
             Participation Fees for College Students: ₹​​100<br/>
-            and other Students: ₹​​120<br/><br/>
+            and other Students: ₹​​150<br/><br/>
             <b class="b">Contact Person:</b><br/>
             &#9724; Priyanka Mehta(ECE): 8910016185<br/>
             &#9724; Sanah Asgar(CSE): 9831071442
@@ -530,9 +450,9 @@ data = [
             <ol>
             <li>There can be a minimum of 3 and a maximum of 5 unique members in the team.</li>
             
-            <li>Team Members need to bring their college ID cards.In the prelm there will be obstacles,teams have to avoid the obstacles and put the ball in thee basket.</li>
+            <li>Team Members need to bring their college ID cards.In the prelims there will be obstacles,teams have to avoid the obstacles and put the ball in the basket.</li>
             
-            <li>Te paticipants wil bwe provided with a 220V,50Hz single phase power supply.</li>
+            <li>The participants wiil be provided with a 220V,50Hz single phase power supply.</li>
             
             <li>The decision of coordinators will be final.</li>
             </ol>
@@ -746,8 +666,8 @@ data = [
             arena at possible edges. Preliminary rounds will be of
             1200 points and later stages will be of more points.<br/><br/>
             <b class="b">Registration fees:</b><br/>
-            Participation Fees for College Students: ₹<br/>
-        and other Students: ₹<br/><br/>
+            Participation Fees for College Students: ₹100<br/>
+        and other Students: ₹120<br/><br/>
             <b class="b">Contact Person:</b><br/>
             &#9724; Soumyadyuti Bagchi(ECE): 7044075625<br/>
             &#9724; Barun Saha (EE): 9733838669<br/>
@@ -1092,8 +1012,15 @@ data = [
 
 function register(name){
         localStorage.setItem("subEvent", name)
+        if(localStorage.getItem("subEvent")==="EXPOSCIENCE"){
+            console.log(localStorage.getItem("subEvent"))
+            document.querySelector(".register").classList.add("disabled")
+        }else{
+            document.querySelector(".register").classList.remove("disabled")
+        }
         openModal()
 }
+
 modal = document.getElementById("modal")
 closeBtn = document.querySelector(".close-button")
 modal.addEventListener("click", closeModal)
@@ -1126,3 +1053,87 @@ function closeModal(e){
 document.querySelector(".avatar").addEventListener("click",function(){
     window.location.href="index.html"
 })
+
+// "description": `<b class="b">Event description:</b><br/>
+//             Photography is an art of creating moving or still pictures by recording
+//             radiation on a sensitive medium. It is proved to be a beneficial medium
+//             for the purpose of capturing momentous moment of life.
+            
+//             Pictures speak a thousand words than mere sentence and that is all about
+//             &quot;35 mm LIVE&quot;...<br/><br/>
+//             <b class="b">Objective:</b><br/>
+//             There is no design without discipline; there is no discipline without
+//             intelligence...
+//             There is no doubt that creativity is the most important human resource of
+//             all. Without creativity, there would be no progress and we would be
+//             forever repeating the same patterns. techstorm 2.20 is a platform for
+//             innovations, you will be rewarded, if you have the element, an ability to
+//             view the world from a wider perspective and envisage that which never
+//             was...<br/><br/>
+//             <b class="b">Registration:</b><br/>
+//             <ol>
+//             <li>The registration fee is Rs. 100 per participant, who will be allowed
+//             to submit 4 photographs. However, per additional 2 photographs
+//             submitted an excess charge of Rs. 15 will be levied. However for
+//             BPPIMT students, registration fee is Rs. 50 per participant and
+//             maximum of 6 photos will be accepted.</li>
+//             <li>The participants must bring their photographs (soft copy) and their
+//             required data in a CD/Pen drive and might be asked to show during
+//             the fest.</li>
+//             <li>Every participant must produce his/her college Identity Card during
+//             registration or whenever asked for.</li>
+//             <li>Mode of payment will be e-mailed to the participant after we
+//             receive the mail from the participant and a time will be given for
+//             them to submit the requisite money.</li>
+//             </ol>
+//             <b class="b">Contact Person:</b><br/>
+//             &#9724; Nibedita Saha: 8240579258
+//             `,
+//             "rules" : `<b class="b">Qualification Rules</b><br/>
+//             <ol>
+//             <li>Only individuals can participate. No group or team formation is
+//             allowed.</li>
+//             <li>We have FOUR basic genres for the theme: &quot;Emotion of the life&quot;</li>
+//             <li>The participant can submit photographs for any/all of the four
+//             genres.
+//                 <ul>
+//                     <li>Conceptual or Macro</li>
+//                     <li>Portraits and Expression</li>
+//                     <li>Nature or Landscape</li>
+//                     <li>Street Photography or action</li>
+//                 </ul>
+//             </li>
+//             <li>All individual is allowed to submit a maximum of 6 photos with a
+//             maximum of two per genres.</li>
+//             <li>The photographs should be original and unedited. Editing can be
+//             done only to improve the contrast, colour, brightness to bring the
+//             originality of the situation. No addition or removals of objects or
+//             any other editing procedures are allowed. Photoshop editing is
+//             strictly forbidden.</li>
+//             <li>Participants will be disqualified if the above parameters are not
+//             obeyed.</li>
+//             <li>Watermarks and names on the photos are not allowed.</li>
+//             <li>The participants must abide by the specifications given below
+//             otherwise that would lead to negative marking.</li>
+//             <li>The photos must be ATLEAST 5 Mega-Pixel and MAXIMUM 15 MB in
+//             size.</li>
+//             <li>The format must be simple JPEG or JPG file. No other file formats
+//             will be accepted.</li>
+//             <li>During submission, the participant must follow these simple steps:-
+//                 <ul>
+//                     <li>The file name of the photos should be name_collegename_genre_serial no. (For e.g. if the name is Puja Vasa and the college is BPPIMT and the genre is PORTRAIT, the respective file name should be PujaVasa_BPPIMT_Portrait_1)</li>
+//                     <li>In a separate notepad file, he/she must provide the following for every photo:-
+//                         <ul>
+//                             <li>Title to the photograph</li>
+//                             <li>File name</li>
+//                             <li>Location of shoot (LOCATION OF SHOOT MUST BE WITHIN WEST BENGAL)</li>
+//                             <li>Camera make &amp; model, Lens, Aperture, Shutter speed and ISO</li>
+//                         </ul>
+//                     <li>In the same note pad, Personal details should include: name, email-id and Mobile number to contact, in case of you are a winner!!</li>
+//                     <li>Participants is required to provide a scanned picture of the college Identity Card through the mail along with their submission in the same mail.</li>
+//                     <li>Submission has to be mailed to the email address: participation.techstorm12@gmail.com latest by 25th September, 2012 within 5pm. Entries after this date will not be accepted.</li>
+//                     <li>The subject of the mail should be 35mm LIVE else the mails will not be accepted.</li>
+//                 </ul>
+//             </li>
+//             </ol>`,
+//             "result": "Not yet out"

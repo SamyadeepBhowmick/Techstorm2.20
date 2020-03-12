@@ -1346,7 +1346,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  background-color: var(--faded-white);
+  /* background-color: var(--faded-white); */
+  background-color: transparent;
   margin-bottom: 30px;
 }
 
